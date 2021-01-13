@@ -3196,7 +3196,7 @@ eval("\n\n__webpack_require__(/*! ./noConflict */ \"./node_modules/@babel/polyfi
 /*!*********************!*\
   !*** ./src/App.jsx ***!
   \*********************/
-eval("console.log(\"does it still werk, hunty?\");\n\n//# sourceURL=webpack://personal-web-page/./src/App.jsx?");
+eval("console.log(\"lets see if it still werks, hunty?\");\n\n//# sourceURL=webpack://personal-web-page/./src/App.jsx?");
 })();
 
 /******/ })()
