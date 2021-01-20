@@ -51,7 +51,3 @@ const NavBar = (props) => {
 }
 
 export default NavBar;
-
-// <Link onClick={() => {setIsProjectsShowing(false)}} to="/projects/silversmith" >
-// <ProjectsSilversmithIcon/>
-// </Link> 

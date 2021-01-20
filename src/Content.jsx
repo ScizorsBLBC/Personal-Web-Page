@@ -10,7 +10,7 @@ import Home from "./Home";
 const Content = () => {
     return (
             <div className="Content">
-               <Route exact path="/">
+               <Route path="/">
                     <BioBlock/>
                </Route>
                <Route exact path="/projects">
