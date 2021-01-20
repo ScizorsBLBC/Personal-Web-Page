@@ -1,6 +1,9 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 module.exports = {
+    devServer: {
+        historyApiFallback: true
+    },
     mode: "development",
     entry: {
         vendor: [
@@ -21,6 +24,13 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.svg$/,
+                use: [
+                    {loader: "babel-loader"},
+                    {loader: "react-svg-loader", options: {jsx: false}}
+                ]
+            },
+            {
                 test: /\.(ts|js)x?$/,
                 loader: "babel-loader"
             }
@@ -29,6 +39,10 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.hbs"
+        }),
+        new HtmlWebpackPlugin({
+            template: "./src/index.hbs",
+            filename: "404.html"
         })
     ],
     output: {
