@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background: #080306;
+        background:#0F070D;
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
         color: #f0dbf0;
