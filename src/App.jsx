@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background: #0d0d0d;
+        background: #080306;
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
         color: #f0dbf0;
@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
         position: absolute;
         top: 0;
     }
-    
+
     h1 {
         margin-top: 0;
     }
@@ -51,7 +51,7 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         width: 75px;     
         z-index: 1;           
-        background: black; 
+        background: #030002; 
         overflow-x: hidden;    
         padding: 10px;
     } 
