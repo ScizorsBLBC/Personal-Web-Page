@@ -5,6 +5,7 @@ import { render } from "react-dom";
 import Content from "./Content";
 import NavBar from "./NavBar";
 import GlobalStyled from "./GlobalStyled";
+
   
             
     
@@ -20,3 +21,5 @@ const App = (
 
 )
 render(App, document.querySelector("#root"));
+
+// import { Favicon } from "react-favicon";
