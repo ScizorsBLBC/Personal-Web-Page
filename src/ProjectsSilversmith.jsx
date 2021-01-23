@@ -3,7 +3,7 @@ const ProjectsSilversmith = () => {
     return (
         <div className="ProjectsSilversmith">
             <h1>
-                Silversmithing
+                Silversmith
             </h1>
         </div>
     )

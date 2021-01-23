@@ -3,6 +3,7 @@ import { BioBlock } from "./BioBlock";
 import Projects from "./Projects";
 import ProjectsPhotography from "./ProjectsPhotography";
 import ProjectsSilversmith from "./ProjectsSilversmith";
+import ProjectsGardening from "./ProjectsGardening";
 import ProjectsWebDevelopment from "./ProjectsWebDevelopment";
 import { Route } from "react-router-dom";
 import About from "./About";
@@ -22,14 +23,17 @@ const Content = () => {
                <Route exact path="/home">
                    <Home/>
                </Route>
-               <Route exact path="/projects/photography">
+               <Route exact path="/projects-photography">
                    <ProjectsPhotography/>
                </Route>
-               <Route exact path="/projects/silversmith">
+               <Route exact path="/projects-silversmith">
                    <ProjectsSilversmith/>
                </Route>
-               <Route exact path="/projects/web-development">
+               <Route exact path="/projects-web-development">
                    <ProjectsWebDevelopment/>
+               </Route>
+               <Route exact path="/projects-gardening">
+                   <ProjectsGardening/>
                </Route>
                 <footer>
                     <p>

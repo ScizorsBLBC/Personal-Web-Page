@@ -11,3 +11,5 @@ const About = () => {
 }
 
 export default About;
+
+// icons from: landscape by Eucalyp from the Noun Project https://thenounproject.com/search/?q=landscaping&i=3154900, 
