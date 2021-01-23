@@ -31,6 +31,7 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-favicon": "0.0.18",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-svg-loader": "^3.0.3",

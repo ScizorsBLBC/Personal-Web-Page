@@ -1,13 +1,15 @@
 import React from "react"
+import { Route } from "react-router-dom";
+
 import { BioBlock } from "./BioBlock";
 import Projects from "./Projects";
 import ProjectsPhotography from "./ProjectsPhotography";
 import ProjectsSilversmith from "./ProjectsSilversmith";
 import ProjectsGardening from "./ProjectsGardening";
 import ProjectsWebDevelopment from "./ProjectsWebDevelopment";
-import { Route } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
+
 const Content = () => {
     return (
             <div className="Content">

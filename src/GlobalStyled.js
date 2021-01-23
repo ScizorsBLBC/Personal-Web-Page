@@ -61,6 +61,10 @@ const GlobalStyled = createGlobalStyle`
         
     }
 
+    .ProjectsPhotography {
+      
+    }
+
     footer {
         border-top: 2px solid margin:60px 20px 20px 20px;
         border-top: .5px solid #ffe6f3;

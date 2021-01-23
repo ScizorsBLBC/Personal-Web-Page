@@ -10,3 +10,5 @@ const ProjectsSilversmith = () => {
 }
 
 export default ProjectsSilversmith;
+
+// add images
