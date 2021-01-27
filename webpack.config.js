@@ -1,5 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const CopyPlugin = require("copy-webpack-plugin");
+
 module.exports = {
     devServer: {
         historyApiFallback: true
@@ -33,7 +35,13 @@ module.exports = {
             {
                 test: /\.(ts|js)x?$/,
                 loader: "babel-loader"
-            }
+            },
+            {
+                test: /\.(jpe?g|png|gif)$/i,
+                use: [
+                  'file-loader',
+                ],
+              }
         ]
     },
     plugins: [
@@ -43,11 +51,12 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/index.hbs",
             filename: "404.html"
-        })
+        }),
     ],
     output: {
         path: path.join(__dirname, "docs")
-    }
+    }  
+
 };
 
 

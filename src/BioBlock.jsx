@@ -5,7 +5,7 @@ export const BioBlock = (props) => {
         <div> 
             <h1> Under Construction </h1>
             <p> 
-                        
+                      
             </p>
         </div>
     )

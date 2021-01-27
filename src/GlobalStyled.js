@@ -5,7 +5,7 @@ const GlobalStyled = createGlobalStyle`
         background:#0F070D;
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
-        color: #f0dbf0;
+        color: #E3C5E3;
     }
 
     .app-wrapper {
@@ -30,7 +30,7 @@ const GlobalStyled = createGlobalStyle`
     }
 
     .NavBar svg path {
-        fill: #f0dbf0;
+        fill: #E3C5E3;
     }
 
     .NavBar svg {

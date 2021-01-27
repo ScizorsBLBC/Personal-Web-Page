@@ -4,7 +4,7 @@
   "description": "My First web page",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config ./webpack.config.js",
+    "build": "rimraf ./docs && webpack --config ./webpack.config.js",
     "dev": "webpack serve --config ./webpack.config.js"
   },
   "repository": {
@@ -19,19 +19,22 @@
   "homepage": "https://github.com/ScizorsBLBC/Personal-Web-Page#readme",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "webpack": "^5.13.0",
-    "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
-    "html-webpack-plugin": "^4.5.1"
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^4.5.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.13.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-favicon": "0.0.18",
+    "react-helmet": "^6.1.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-svg-loader": "^3.0.3",
