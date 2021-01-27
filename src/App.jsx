@@ -24,4 +24,3 @@ const App = (
 )
 render(App, document.querySelector("#root"));
 
-// import { Favicon } from "react-favicon";

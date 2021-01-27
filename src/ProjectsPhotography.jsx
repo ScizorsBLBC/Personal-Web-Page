@@ -1,11 +1,26 @@
 import React from "react";
+
+import Photography01 from "./assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg";
+import Photography02 from "./assets/images/images-photography/_1120746.jpg";
+
+const photoSources = [
+    Photography01,
+    Photography02
+]
+
 const ProjectsPhotography = () => {
     return (
         <div className="ProjectsPhotography">
             <h1>
                 Photography
             </h1>
-            <img src="https://lh3.google.com/u/0/d/0B5ySBdel4ptULXhZLUhuTml2SHc=w400-h380-p-k-nu-iv2"/>
+           <div className="gallery-wrapper">
+                {photoSources.map((photoSource) => (
+                        <div className="image-wrapper"> 
+                            <img src={photoSource} />
+                        </div> 
+                ))} 
+            </div>
         </div>
     )
 }

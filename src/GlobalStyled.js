@@ -8,6 +8,10 @@ const GlobalStyled = createGlobalStyle`
         color: #E3C5E3;
     }
 
+    * {
+        box-sizing: border-box; 
+    }
+
     .app-wrapper {
         position: absolute;
         top: 0;
@@ -26,7 +30,6 @@ const GlobalStyled = createGlobalStyle`
         width: calc(100vw - 95px);
         min-width: calc(100vw - 95px);
         min-height: 100vh;
-        box-sizing: border-box;
     }
 
     .NavBar svg path {
@@ -61,9 +64,33 @@ const GlobalStyled = createGlobalStyle`
         
     }
 
-    .ProjectsPhotography {
-      
+    .gallery-wrapper {
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    div.image-wrapper {
+        width: 50%;
+        overflow: hidden;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        @media (min-width: 2000px) {
+            width: 25%;
+        }
+        @media screen and (max-width: 45em) {
+            width: 100%;
+            height: 200px;
+        }
+        
+    }
+    .image-wrapper > img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
 
     footer {
         border-top: 2px solid margin:60px 20px 20px 20px;

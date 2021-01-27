@@ -3688,7 +3688,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ \"./node_modules/react-helmet/es/Helmet.js\");\n/* harmony import */ var _Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Content */ \"./src/Content.jsx\");\n/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavBar */ \"./src/NavBar.jsx\");\n/* harmony import */ var _GlobalStyled__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./GlobalStyled */ \"./src/GlobalStyled.js\");\n/* harmony import */ var _assets_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/favicon-32x32.png */ \"./src/assets/favicon-32x32.png\");\n\n\n\n\n\n\n\n\nconst App = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n  className: \"app-wrapper\"\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"link\", {\n  rel: \"icon\",\n  type: \"image/png\",\n  href: _assets_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_6__.default\n})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_GlobalStyled__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavBar__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Content__WEBPACK_IMPORTED_MODULE_3__.default, null)));\n(0,react_dom__WEBPACK_IMPORTED_MODULE_1__.render)(App, document.querySelector(\"#root\")); // import { Favicon } from \"react-favicon\";\n\n//# sourceURL=webpack://personal-web-page/./src/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ \"./node_modules/react-helmet/es/Helmet.js\");\n/* harmony import */ var _Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Content */ \"./src/Content.jsx\");\n/* harmony import */ var _NavBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavBar */ \"./src/NavBar.jsx\");\n/* harmony import */ var _GlobalStyled__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./GlobalStyled */ \"./src/GlobalStyled.js\");\n/* harmony import */ var _assets_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/favicon-32x32.png */ \"./src/assets/favicon-32x32.png\");\n\n\n\n\n\n\n\n\nconst App = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n  className: \"app-wrapper\"\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"link\", {\n  rel: \"icon\",\n  type: \"image/png\",\n  href: _assets_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_6__.default\n})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_GlobalStyled__WEBPACK_IMPORTED_MODULE_5__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavBar__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Content__WEBPACK_IMPORTED_MODULE_3__.default, null)));\n(0,react_dom__WEBPACK_IMPORTED_MODULE_1__.render)(App, document.querySelector(\"#root\"));\n\n//# sourceURL=webpack://personal-web-page/./src/App.jsx?");
 
 /***/ }),
 
@@ -3721,7 +3721,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n\nconst GlobalStyled = styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle`\n    body {\n        background:#0F070D;\n        font-family: 'Ubuntu', sans-serif;\n        min-height:100vh;\n        color: #E3C5E3;\n    }\n\n    .app-wrapper {\n        position: absolute;\n        top: 0;\n    }\n\n    h1 {\n        margin-top: 0;\n    }\n\n    .Content {\n        margin-left: 95px;\n        display: flex;\n        flex-direction: column;\n        justify-content: space-between;\n        padding: 10px;\n        width: calc(100vw - 95px);\n        min-width: calc(100vw - 95px);\n        min-height: 100vh;\n        box-sizing: border-box;\n    }\n\n    .NavBar svg path {\n        fill: #E3C5E3;\n    }\n\n    .NavBar svg {\n        height: 65px;\n        width: 65px;\n    }\n\n    .NavBar {\n        align-items: center;\n        display: flex;\n        flex-direction: column;\n        position: fixed;     \n        height: 100%;\n        width: 75px;     \n        z-index: 1;           \n        background: #030002; \n        overflow-x: hidden;    \n        padding: 10px;\n    } \n\n    .ProjectNavBar{\n        padding-left: 20px;\n    }\n\n    .ProjectNavBar svg {\n        height: 50px;\n        width: 50px;\n        \n    }\n\n    .ProjectsPhotography {\n      \n    }\n\n    footer {\n        border-top: 2px solid margin:60px 20px 20px 20px;\n        border-top: .5px solid #ffe6f3;\n    }\n`;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GlobalStyled);\n\n//# sourceURL=webpack://personal-web-page/./src/GlobalStyled.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ \"./node_modules/styled-components/dist/styled-components.browser.esm.js\");\n\nconst GlobalStyled = styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle`\n    body {\n        background:#0F070D;\n        font-family: 'Ubuntu', sans-serif;\n        min-height:100vh;\n        color: #E3C5E3;\n    }\n\n    * {\n        box-sizing: border-box; \n    }\n\n    .app-wrapper {\n        position: absolute;\n        top: 0;\n    }\n\n    h1 {\n        margin-top: 0;\n    }\n\n    .Content {\n        margin-left: 95px;\n        display: flex;\n        flex-direction: column;\n        justify-content: space-between;\n        padding: 10px;\n        width: calc(100vw - 95px);\n        min-width: calc(100vw - 95px);\n        min-height: 100vh;\n    }\n\n    .NavBar svg path {\n        fill: #E3C5E3;\n    }\n\n    .NavBar svg {\n        height: 65px;\n        width: 65px;\n    }\n\n    .NavBar {\n        align-items: center;\n        display: flex;\n        flex-direction: column;\n        position: fixed;     \n        height: 100%;\n        width: 75px;     \n        z-index: 1;           \n        background: #030002; \n        overflow-x: hidden;    \n        padding: 10px;\n    } \n\n    .ProjectNavBar{\n        padding-left: 20px;\n    }\n\n    .ProjectNavBar svg {\n        height: 50px;\n        width: 50px;\n        \n    }\n\n    .gallery-wrapper {\n        display: flex;\n        flex-wrap: wrap;\n    }\n\n    div.image-wrapper {\n        width: 50%;\n        overflow: hidden;\n        height: 400px;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        padding: 5px;\n        @media (min-width: 2000px) {\n            width: 25%;\n        }\n        @media screen and (max-width: 45em) {\n            width: 100%;\n            height: 200px;\n        }\n        \n    }\n    .image-wrapper > img {\n        max-height: 100%;\n        max-width: 100%;\n    }\n    \n\n    footer {\n        border-top: 2px solid margin:60px 20px 20px 20px;\n        border-top: .5px solid #ffe6f3;\n    }\n`;\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GlobalStyled);\n\n//# sourceURL=webpack://personal-web-page/./src/GlobalStyled.js?");
 
 /***/ }),
 
@@ -3765,7 +3765,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nconst ProjectsGardening = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectsGardening\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Gardening\"));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsGardening);\n\n//# sourceURL=webpack://personal-web-page/./src/ProjectsGardening.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _assets_images_images_gardening_commercial01_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/images-gardening/commercial01.jpg */ \"./src/assets/images/images-gardening/commercial01.jpg\");\n/* harmony import */ var _assets_images_images_gardening_commercial02_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/images-gardening/commercial02.jpg */ \"./src/assets/images/images-gardening/commercial02.jpg\");\n/* harmony import */ var _assets_images_images_gardening_commercial04_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/images-gardening/commercial04.jpg */ \"./src/assets/images/images-gardening/commercial04.jpg\");\n/* harmony import */ var _assets_images_images_gardening_commercial05_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/images-gardening/commercial05.jpg */ \"./src/assets/images/images-gardening/commercial05.jpg\");\n/* harmony import */ var _assets_images_images_gardening_containers01_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/images-gardening/containers01.jpg */ \"./src/assets/images/images-gardening/containers01.jpg\");\n/* harmony import */ var _assets_images_images_gardening_containers02_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/images-gardening/containers02.jpg */ \"./src/assets/images/images-gardening/containers02.jpg\");\n/* harmony import */ var _assets_images_images_gardening_containers03_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/images-gardening/containers03.jpg */ \"./src/assets/images/images-gardening/containers03.jpg\");\n/* harmony import */ var _assets_images_images_gardening_ediblegarden01_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/images-gardening/ediblegarden01.jpg */ \"./src/assets/images/images-gardening/ediblegarden01.jpg\");\n/* harmony import */ var _assets_images_images_gardening_ediblegarden02_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/images-gardening/ediblegarden02.jpg */ \"./src/assets/images/images-gardening/ediblegarden02.jpg\");\n/* harmony import */ var _assets_images_images_gardening_ediblegarden03_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/images-gardening/ediblegarden03.jpg */ \"./src/assets/images/images-gardening/ediblegarden03.jpg\");\n/* harmony import */ var _assets_images_images_gardening_ediblegarden04_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/images-gardening/ediblegarden04.jpg */ \"./src/assets/images/images-gardening/ediblegarden04.jpg\");\n/* harmony import */ var _assets_images_images_gardening_ediblegarden05_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/images/images-gardening/ediblegarden05.jpg */ \"./src/assets/images/images-gardening/ediblegarden05.jpg\");\n/* harmony import */ var _assets_images_images_gardening_formal01_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/images/images-gardening/formal01.jpg */ \"./src/assets/images/images-gardening/formal01.jpg\");\n/* harmony import */ var _assets_images_images_gardening_formal02_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/images/images-gardening/formal02.jpg */ \"./src/assets/images/images-gardening/formal02.jpg\");\n/* harmony import */ var _assets_images_images_gardening_formal03_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/images/images-gardening/formal03.jpg */ \"./src/assets/images/images-gardening/formal03.jpg\");\n/* harmony import */ var _assets_images_images_gardening_formal04_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./assets/images/images-gardening/formal04.jpg */ \"./src/assets/images/images-gardening/formal04.jpg\");\n/* harmony import */ var _assets_images_images_gardening_formal05_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./assets/images/images-gardening/formal05.jpg */ \"./src/assets/images/images-gardening/formal05.jpg\");\n/* harmony import */ var _assets_images_images_gardening_formal06_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./assets/images/images-gardening/formal06.jpg */ \"./src/assets/images/images-gardening/formal06.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside01_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside01.jpg */ \"./src/assets/images/images-gardening/lakeside01.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside02_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside02.jpg */ \"./src/assets/images/images-gardening/lakeside02.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside03_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside03.jpg */ \"./src/assets/images/images-gardening/lakeside03.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside04_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside04.jpg */ \"./src/assets/images/images-gardening/lakeside04.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside05_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside05.jpg */ \"./src/assets/images/images-gardening/lakeside05.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside06_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside06.jpg */ \"./src/assets/images/images-gardening/lakeside06.jpg\");\n/* harmony import */ var _assets_images_images_gardening_lakeside07_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./assets/images/images-gardening/lakeside07.jpg */ \"./src/assets/images/images-gardening/lakeside07.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water00_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./assets/images/images-gardening/water00.jpg */ \"./src/assets/images/images-gardening/water00.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water01_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./assets/images/images-gardening/water01.jpg */ \"./src/assets/images/images-gardening/water01.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water02_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./assets/images/images-gardening/water02.jpg */ \"./src/assets/images/images-gardening/water02.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water03_jpg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./assets/images/images-gardening/water03.jpg */ \"./src/assets/images/images-gardening/water03.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water04_jpg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./assets/images/images-gardening/water04.jpg */ \"./src/assets/images/images-gardening/water04.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water05_jpg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./assets/images/images-gardening/water05.jpg */ \"./src/assets/images/images-gardening/water05.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water06_jpg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./assets/images/images-gardening/water06.jpg */ \"./src/assets/images/images-gardening/water06.jpg\");\n/* harmony import */ var _assets_images_images_gardening_water07_jpg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./assets/images/images-gardening/water07.jpg */ \"./src/assets/images/images-gardening/water07.jpg\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst gardeningSources = [_assets_images_images_gardening_commercial01_jpg__WEBPACK_IMPORTED_MODULE_1__.default, _assets_images_images_gardening_commercial02_jpg__WEBPACK_IMPORTED_MODULE_2__.default, _assets_images_images_gardening_commercial04_jpg__WEBPACK_IMPORTED_MODULE_3__.default, _assets_images_images_gardening_commercial05_jpg__WEBPACK_IMPORTED_MODULE_4__.default, _assets_images_images_gardening_containers01_jpg__WEBPACK_IMPORTED_MODULE_5__.default, _assets_images_images_gardening_containers02_jpg__WEBPACK_IMPORTED_MODULE_6__.default, _assets_images_images_gardening_containers03_jpg__WEBPACK_IMPORTED_MODULE_7__.default, _assets_images_images_gardening_ediblegarden01_jpg__WEBPACK_IMPORTED_MODULE_8__.default, _assets_images_images_gardening_ediblegarden02_jpg__WEBPACK_IMPORTED_MODULE_9__.default, _assets_images_images_gardening_ediblegarden03_jpg__WEBPACK_IMPORTED_MODULE_10__.default, _assets_images_images_gardening_ediblegarden04_jpg__WEBPACK_IMPORTED_MODULE_11__.default, _assets_images_images_gardening_ediblegarden05_jpg__WEBPACK_IMPORTED_MODULE_12__.default, _assets_images_images_gardening_formal01_jpg__WEBPACK_IMPORTED_MODULE_13__.default, _assets_images_images_gardening_formal02_jpg__WEBPACK_IMPORTED_MODULE_14__.default, _assets_images_images_gardening_formal03_jpg__WEBPACK_IMPORTED_MODULE_15__.default, _assets_images_images_gardening_formal04_jpg__WEBPACK_IMPORTED_MODULE_16__.default, _assets_images_images_gardening_formal05_jpg__WEBPACK_IMPORTED_MODULE_17__.default, _assets_images_images_gardening_formal06_jpg__WEBPACK_IMPORTED_MODULE_18__.default, _assets_images_images_gardening_lakeside01_jpg__WEBPACK_IMPORTED_MODULE_19__.default, _assets_images_images_gardening_lakeside02_jpg__WEBPACK_IMPORTED_MODULE_20__.default, _assets_images_images_gardening_lakeside03_jpg__WEBPACK_IMPORTED_MODULE_21__.default, _assets_images_images_gardening_lakeside04_jpg__WEBPACK_IMPORTED_MODULE_22__.default, _assets_images_images_gardening_lakeside05_jpg__WEBPACK_IMPORTED_MODULE_23__.default, _assets_images_images_gardening_lakeside06_jpg__WEBPACK_IMPORTED_MODULE_24__.default, _assets_images_images_gardening_lakeside07_jpg__WEBPACK_IMPORTED_MODULE_25__.default, _assets_images_images_gardening_water00_jpg__WEBPACK_IMPORTED_MODULE_26__.default, _assets_images_images_gardening_water01_jpg__WEBPACK_IMPORTED_MODULE_27__.default, _assets_images_images_gardening_water02_jpg__WEBPACK_IMPORTED_MODULE_28__.default, _assets_images_images_gardening_water03_jpg__WEBPACK_IMPORTED_MODULE_29__.default, _assets_images_images_gardening_water04_jpg__WEBPACK_IMPORTED_MODULE_30__.default, _assets_images_images_gardening_water05_jpg__WEBPACK_IMPORTED_MODULE_31__.default, _assets_images_images_gardening_water06_jpg__WEBPACK_IMPORTED_MODULE_32__.default, _assets_images_images_gardening_water07_jpg__WEBPACK_IMPORTED_MODULE_33__.default];\n\nconst ProjectsGardening = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectsGardening\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Gardening\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"gallery-wrapper\"\n  }, gardeningSources.map(gardeningSource => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"image-wrapper\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: gardeningSource\n  })))));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsGardening);\n\n//# sourceURL=webpack://personal-web-page/./src/ProjectsGardening.jsx?");
 
 /***/ }),
 
@@ -3776,7 +3776,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nconst ProjectsPhotography = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectsPhotography\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Photography\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: \"https://lh3.google.com/u/0/d/0B5ySBdel4ptULXhZLUhuTml2SHc=w400-h380-p-k-nu-iv2\"\n  }));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsPhotography); // Change state for image url\n// div element images are shown in, highlighted\n// layout of thumbnnails div?\n// onclick handler when click thumbnail changes image highlighted\n// how to get images into the file temporarily link to image online\n\n//# sourceURL=webpack://personal-web-page/./src/ProjectsPhotography.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _assets_images_images_photography_1110759_60_61_62_63_64_65_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg */ \"./src/assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg\");\n/* harmony import */ var _assets_images_images_photography_1120746_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/images-photography/_1120746.jpg */ \"./src/assets/images/images-photography/_1120746.jpg\");\n\n\n\nconst photoSources = [_assets_images_images_photography_1110759_60_61_62_63_64_65_jpg__WEBPACK_IMPORTED_MODULE_1__.default, _assets_images_images_photography_1120746_jpg__WEBPACK_IMPORTED_MODULE_2__.default];\n\nconst ProjectsPhotography = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectsPhotography\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Photography\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"gallery-wrapper\"\n  }, photoSources.map(photoSource => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"image-wrapper\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: photoSource\n  })))));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsPhotography); // Change state for image url\n// div element images are shown in, highlighted\n// layout of thumbnnails div?\n// onclick handler when click thumbnail changes image highlighted\n// how to get images into the file temporarily link to image online\n\n//# sourceURL=webpack://personal-web-page/./src/ProjectsPhotography.jsx?");
 
 /***/ }),
 
@@ -3787,7 +3787,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nconst ProjectsSilversmith = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectsSilversmith\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Silversmith\"));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsSilversmith); // add images\n\n//# sourceURL=webpack://personal-web-page/./src/ProjectsSilversmith.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nconst silversmithSources = [];\n\nconst ProjectsSilversmith = () => {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"ProjectsSilversmith\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"Silversmith\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"gallery-wrapper\"\n  }, silversmithSources.map(silversmithSource => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"image-wrapper\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: silversmithSource\n  })))));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProjectsSilversmith); // add images\n\n//# sourceURL=webpack://personal-web-page/./src/ProjectsSilversmith.jsx?");
 
 /***/ }),
 
@@ -3810,6 +3810,391 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"3b646d725ff8858ea8edbe3e2b627cd0.png\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/favicon-32x32.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/commercial01.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/commercial01.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c60bd1f33e512aba845b2312c7291f68.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/commercial01.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/commercial02.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/commercial02.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"0f5e7a380b5fc15b75fe36bc27136caa.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/commercial02.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/commercial04.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/commercial04.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6b84d684f03a298381104c5fa5eb0092.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/commercial04.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/commercial05.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/commercial05.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"edc9992a0f28fc903e9bd895983bf227.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/commercial05.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/containers01.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/containers01.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8ab941fb5be6deee9eb7925f6e9a3609.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/containers01.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/containers02.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/containers02.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"601be62237afff36b8b4b8822d11f4ec.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/containers02.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/containers03.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/images/images-gardening/containers03.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a0cfd72f60f669a62f342ae4705aea7e.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/containers03.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/ediblegarden01.jpg":
+/*!***************************************************************!*\
+  !*** ./src/assets/images/images-gardening/ediblegarden01.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7b22ee33a0597c9a71b2c8720429db9f.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/ediblegarden01.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/ediblegarden02.jpg":
+/*!***************************************************************!*\
+  !*** ./src/assets/images/images-gardening/ediblegarden02.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"89b80103363adb1a28ec87b8381ab6cb.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/ediblegarden02.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/ediblegarden03.jpg":
+/*!***************************************************************!*\
+  !*** ./src/assets/images/images-gardening/ediblegarden03.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"602618b2636960e13e7c57013056d13b.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/ediblegarden03.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/ediblegarden04.jpg":
+/*!***************************************************************!*\
+  !*** ./src/assets/images/images-gardening/ediblegarden04.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"17f48571d2dfeb912efadfafed152421.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/ediblegarden04.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/ediblegarden05.jpg":
+/*!***************************************************************!*\
+  !*** ./src/assets/images/images-gardening/ediblegarden05.jpg ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c811bdbc38673d86cbf994776d8f3a96.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/ediblegarden05.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/formal01.jpg":
+/*!*********************************************************!*\
+  !*** ./src/assets/images/images-gardening/formal01.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"03980316c06ece917d36622198b44f11.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/formal01.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/formal02.jpg":
+/*!*********************************************************!*\
+  !*** ./src/assets/images/images-gardening/formal02.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c4712950042922106c9c79bc36cbde85.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/formal02.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/formal03.jpg":
+/*!*********************************************************!*\
+  !*** ./src/assets/images/images-gardening/formal03.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8312bce9c01534cb46f3ae576013106b.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/formal03.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/formal04.jpg":
+/*!*********************************************************!*\
+  !*** ./src/assets/images/images-gardening/formal04.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8da27f0490599a3c533434acbc9520b4.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/formal04.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/formal05.jpg":
+/*!*********************************************************!*\
+  !*** ./src/assets/images/images-gardening/formal05.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"d71e32f678868a53aa9f1a289b058f93.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/formal05.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/formal06.jpg":
+/*!*********************************************************!*\
+  !*** ./src/assets/images/images-gardening/formal06.jpg ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a4b86c10608c88e480ef063f781d0bb2.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/formal06.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside01.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside01.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"179612077cbce36eeaa9789ad995ffdd.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside01.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside02.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside02.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"53b5bcafd0aa22248d5f7d0b2dcfbbe4.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside02.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside03.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside03.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"220597b08661e946df27cd07603a8012.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside03.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside04.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside04.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4f35a65181da26144f90f6a8ce5a7e9e.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside04.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside05.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside05.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9107502162f1f4b95cbfc27fe8c7e055.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside05.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside06.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside06.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"664a44db307d58be0a05675fd1f5c07f.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside06.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/lakeside07.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-gardening/lakeside07.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"52571f7a4e11c5d0a02e85084e6ca59e.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/lakeside07.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water00.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water00.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"06234da258081e34506f65419c5f3db0.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water00.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water01.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water01.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"29c2e5ff769813826434e40c0e788da3.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water01.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water02.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water02.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"fd6ea622d00cedea19afaed190520c22.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water02.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water03.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water03.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"95187da0b82c1ef297de471d2a4a6c88.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water03.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water04.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water04.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"24e3a34a5d7c5e2bbf63fdaa83a8363a.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water04.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water05.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water05.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"03554da2195ec9d47c758dc50007e23a.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water05.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water06.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water06.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"38910449494ec38015c4a17b412d4b3c.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water06.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-gardening/water07.jpg":
+/*!********************************************************!*\
+  !*** ./src/assets/images/images-gardening/water07.jpg ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8d9b23e2a0e2b79a15e3709d2eab4d5a.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-gardening/water07.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg":
+/*!*****************************************************************************!*\
+  !*** ./src/assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"902d78b927bd9fbcc4369ca702a3b86b.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/images-photography/_1120746.jpg":
+/*!***********************************************************!*\
+  !*** ./src/assets/images/images-photography/_1120746.jpg ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c2affd40db5eacf09dd8517eaa8fbae7.jpg\");\n\n//# sourceURL=webpack://personal-web-page/./src/assets/images/images-photography/_1120746.jpg?");
 
 /***/ })
 
