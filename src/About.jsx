@@ -1,11 +1,27 @@
 import React from "react";
+
+import Headshot01 from "./assets/images/headshot.jpg";
+
+const headshotSources = [
+    Headshot01
+]
+
 const About = () => {
     return (
         <div className="About">
             <h1>
                 Scizors
             </h1>
-            <img src="https://avatars2.githubusercontent.com/u/52053296?s=460&u=6f471903ad69eb8e35bf7e279f379f32fdbb50a8&v=4"/>
+            <p>
+                I am currently in a mentorhsip program with Emergent Works learning web development. <a href="https://www.emergentworks.org/"> www.emergentworks.org </a>
+            </p>
+            <div className="gallery-wrapper">
+                {headshotSources.map((headshotSource) => (
+                        <div className="image-wrapper"> 
+                            <img src={headshotSource} />
+                        </div>
+                ))}
+            </div> 
         </div>
     )
 }

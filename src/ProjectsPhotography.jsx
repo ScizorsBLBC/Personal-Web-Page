@@ -14,6 +14,9 @@ const ProjectsPhotography = () => {
             <h1>
                 Photography
             </h1>
+            <p>
+                I am an avid amateur photographer. These images were shot on a Panasonic Lumix GF1 camera and edited using Adobe Lightroom.
+            </p>
            <div className="gallery-wrapper">
                 {photoSources.map((photoSource) => (
                         <div className="image-wrapper"> 
