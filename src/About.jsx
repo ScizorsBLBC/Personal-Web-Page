@@ -14,13 +14,13 @@ const About = () => {
             
 
 
-            <div className="gallery-wrapper">
+            {/* <div className="gallery-wrapper">
                 {headshotSources.map((headshotSource) => (
                         <div className="image-wrapper"> 
                             <img src={headshotSource} />
                         </div>
                 ))}
-            </div> 
+            </div>  */}
 
             <p>
                 I am currently in a mentorhsip program with Emergent Works learning web development. I am studying HTML, CSS, JavaScript, NODE, & React.  <a href="https://www.emergentworks.org/"> www.emergentworks.org.</a>

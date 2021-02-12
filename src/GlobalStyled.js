@@ -69,11 +69,11 @@ const GlobalStyled = createGlobalStyle`
         border-radius: 2%;
     }
 
-    // .About {
-    //     background: url("${require('./assets/images/headshot.jpg')}");
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    // }
+    .About {
+        background: url("${require('./assets/images/headshot.jpg')}");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
     .avatar {
         vertical-align: middle;
