@@ -1,6 +1,6 @@
 import React from "react";
 
-import Photography01 from "./assets/images/images-photography/_1110759_60_61_62_63_64_65.jpg";
+import Photography01 from "./assets/images/images-photography/_1110759_60_61_62_63_64_65.png";
 import Photography02 from "./assets/images/images-photography/_1120746.jpg";
 
 const photoSources = [
@@ -11,9 +11,9 @@ const photoSources = [
 const ProjectsPhotography = () => {
     return (
         <div className="ProjectsPhotography">
-            <h1>
+            <h2>
                 Photography
-            </h1>
+            </h2>
             <p>
                 I am an avid amateur photographer. These images were shot on a Panasonic Lumix GF1 camera and edited using Adobe Lightroom.
             </p>

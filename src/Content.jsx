@@ -13,7 +13,10 @@ import Home from "./Home";
 const Content = () => {
     return (
             <div className="Content">
-               <Route path="/">
+               <Route exact path="/">
+                    <Home/>
+               </Route>
+               <Route exact path="/bio-block">
                     <BioBlock/>
                </Route>
                <Route exact path="/projects">

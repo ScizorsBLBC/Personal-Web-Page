@@ -2,10 +2,11 @@ import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyled = createGlobalStyle`
     body {
-        background:#0F070D;
+        background: #0F070D;
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
         color: #E3C5E3;
+        line-height: 1.5em;
     }
 
     * {
@@ -64,10 +65,29 @@ const GlobalStyled = createGlobalStyle`
         
     }
 
-    .gallery-wrapper {
-        display: flex;
-        flex-wrap: wrap;
+    img {
+        border-radius: 2%;
     }
+
+    // .About {
+    //     background: url("${require('./assets/images/headshot.jpg')}");
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    // }
+
+    .avatar {
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .gallery-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
     div.image-wrapper {
         width: 50%;
@@ -94,7 +114,7 @@ const GlobalStyled = createGlobalStyle`
 
     footer {
         border-top: 2px solid margin:60px 20px 20px 20px;
-        border-top: .5px solid #ffe6f3;
+        border-top: .5px solid  #E3C5E3;
     }
 `;
 export default GlobalStyled;

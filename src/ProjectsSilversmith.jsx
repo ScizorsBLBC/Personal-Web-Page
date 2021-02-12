@@ -52,9 +52,9 @@ const silversmithSources = [
 const ProjectsSilversmith = () => {
     return (
         <div className="ProjectsSilversmith">
-            <h1>
+            <h2>
                 Silversmithing
-            </h1>
+            </h2>
             <p>
                 I was a Silversmith in San Christobal de las Casas, Chiapas, Mexico 2009-2010. Each piece of jewelry was hand crafted and one of a kind. These photos have low image quality as they were taken on an old iPhone6.
             </p>

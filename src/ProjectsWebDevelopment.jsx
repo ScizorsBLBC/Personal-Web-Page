@@ -2,9 +2,9 @@ import React from "react";
 const ProjectsWebDevelopment = () => {
     return (
         <div className="ProjectsWebDevelopment">
-            <h1>
+            <h2>
                 Web Development
-            </h1>
+            </h2>
             <p>
                 
             </p>

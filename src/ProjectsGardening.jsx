@@ -73,11 +73,11 @@ const gardeningSources = [
 const ProjectsGardening = () => {
     return (
         <div className="ProjectsGardening">
-            <h1>
+            <h2>
                 Gardening
-            </h1>
+            </h2>
             <p>
-                I worked as a Gardener for Continuum Gardens in Seattle, Washington 2003-2005. The following images are from Continuum Gardens' website. <a href="https://www.continuumgardens.com/">www.continuumgardens.com</a> 
+                I worked as a gardener for Continuum Gardens in Seattle, Washington 2003-2005. The following images are from Continuum Gardens' website. <a href="https://www.continuumgardens.com/">www.continuumgardens.com</a> 
             </p>
             <div className="gallery-wrapper">
                 {gardeningSources.map((gardeningSource) => (

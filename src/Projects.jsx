@@ -9,11 +9,11 @@ const projectsSources = [
 const Projects = () => {
     return (
         <div className="Projects">
-            <h1>
+            <h2>
                 Projects
-            </h1>
+            </h2>
             <p>
-                Select one of the icons on the left to view my Web Development, Photography, Silversmithing, and Gardening portfolios. 
+                Select one of the icons that drop down when you click the projects icon on the left to view my Web Development, Photography, Silversmithing, and Gardening portfolios. 
             </p>
         </div>
     )
