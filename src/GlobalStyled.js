@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components";
 
-const backgroundBlack = "#010101"  //"#0F070D"
+const backgroundBlack = "#010101";  //"#0F070D"
+const textWidth = "35%";
 
 const GlobalStyled = createGlobalStyle`
     body {
@@ -68,8 +69,18 @@ const GlobalStyled = createGlobalStyle`
         
     }
 
-    img {
-        border-radius: 2%;
+    .Home {
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.3); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+
+    .HomeText {
+        max-width: ${textWidth};
     }
 
     .About {
@@ -82,8 +93,22 @@ const GlobalStyled = createGlobalStyle`
         background-blend-mode: luminosity;
     }
 
-    .Bio {
-        max-width: 35%;
+    .Projects {
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.3); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+
+    .AboutText, .ProjectsText, .ProjectsSilversmithText, .ProjectsGardeningText, .ProjectsPhotographyText, .ProjectsWebDevelopmentText{
+        max-width: ${textWidth};
+    }
+
+    img {
+        border-radius: 2%;
     }
 
     .avatar {

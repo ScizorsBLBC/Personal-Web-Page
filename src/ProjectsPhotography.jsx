@@ -11,12 +11,14 @@ const photoSources = [
 const ProjectsPhotography = () => {
     return (
         <div className="ProjectsPhotography">
-            <h2>
-                Photography
-            </h2>
-            <p>
-                I am an avid amateur photographer. These images were shot on a Panasonic Lumix GF1 camera and edited using Adobe Lightroom.
-            </p>
+            <div className="ProjectsPhotographyText">
+                <h2>
+                    Photography
+                </h2>
+                <p>
+                    I am an avid amateur photographer. These images were shot on a Panasonic Lumix GF1 camera and edited using Adobe Lightroom.
+                </p>
+            </div>
            <div className="gallery-wrapper">
                 {photoSources.map((photoSource) => (
                         <div className="image-wrapper"> 
