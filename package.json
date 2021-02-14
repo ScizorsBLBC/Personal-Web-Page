@@ -1,44 +1,38 @@
 {
-  "name": "personal-web-page",
+  "name": "Personal-Web-Page",
   "version": "1.0.0",
-  "description": "My First web page",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-is": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
+  },
   "scripts": {
-    "build": "rimraf ./docs && webpack --config ./webpack.config.js",
-    "dev": "webpack serve --config ./webpack.config.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html --out-dir ./docs",
+    "build": "rimraf docs && parcel build ./src/index.html --out-dir ./docs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ScizorsBLBC/Personal-Web-Page.git"
   },
-  "author": "Scizors",
-  "license": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ScizorsBLBC/Personal-Web-Page/issues"
   },
-  "homepage": "https://github.com/ScizorsBLBC/Personal-Web-Page#readme",
-  "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.12.11",
-    "@babel/preset-react": "^7.12.10",
-    "babel-loader": "^8.2.2",
-    "copy-webpack-plugin": "^7.0.0",
-    "html-webpack-plugin": "^4.5.1",
-    "rimraf": "^3.0.2",
-    "webpack": "^5.13.0",
-    "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
-  },
-  "dependencies": {
-    "file-loader": "^6.2.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-svg-loader": "^3.0.3",
-    "react-tooltip": "^4.2.13",
-    "styled-components": "^5.2.1"
-  }
+  "homepage": "https://github.com/ScizorsBLBC/Personal-Web-Page#readme"
 }

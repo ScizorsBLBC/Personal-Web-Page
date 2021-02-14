@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; 
-import Tooltip from 'react-tooltip';
 
 import HomeIcon from "./assets/icons/home-icon.svg";
 import ProjectsPhotographyIcon from "./assets/icons/projects-photography-icon.svg";

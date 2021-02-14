@@ -1,8 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components";
 
+const backgroundBlack = "#010101"  //"#0F070D"
+
 const GlobalStyled = createGlobalStyle`
     body {
-        background: #0F070D;
+        background: ${backgroundBlack};
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
         color: #E3C5E3;
@@ -31,6 +33,7 @@ const GlobalStyled = createGlobalStyle`
         width: calc(100vw - 95px);
         min-width: calc(100vw - 95px);
         min-height: 100vh;
+        background: ${backgroundBlack};
     }
 
     .NavBar svg path {
@@ -70,9 +73,17 @@ const GlobalStyled = createGlobalStyle`
     }
 
     .About {
-        background: url("${require('./assets/images/headshot.jpg')}");
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.3); 
         background-size: cover;
         background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+
+    .Bio {
+        max-width: 35%;
     }
 
     .avatar {
