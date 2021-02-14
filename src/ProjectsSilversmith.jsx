@@ -52,12 +52,14 @@ const silversmithSources = [
 const ProjectsSilversmith = () => {
     return (
         <div className="ProjectsSilversmith">
-            <h2>
-                Silversmithing
-            </h2>
-            <p>
-                I was a Silversmith in San Christobal de las Casas, Chiapas, Mexico 2009-2010. Each piece of jewelry was hand crafted and one of a kind. These photos have low image quality as they were taken on an old iPhone6.
-            </p>
+            <div className="ProjectsSilversmithText">
+                <h2>
+                    Silversmithing
+                </h2>
+                <p>
+                    I was a Silversmith in San Christobal de las Casas, Chiapas, Mexico 2009-2010. Each piece of jewelry was hand crafted and one of a kind. These photos have low image quality as they were taken on an old iPhone6.
+                </p>
+            </div>
             <div className="gallery-wrapper">
                 {silversmithSources.map((silversmithSource) => (
                         <div className="image-wrapper"> 

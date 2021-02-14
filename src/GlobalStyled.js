@@ -1,8 +1,11 @@
 import styled, { createGlobalStyle } from "styled-components";
 
+const backgroundBlack = "#010101";  //"#0F070D"
+const textWidth = "35%";
+
 const GlobalStyled = createGlobalStyle`
     body {
-        background: #0F070D;
+        background: ${backgroundBlack};
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
         color: #E3C5E3;
@@ -31,6 +34,7 @@ const GlobalStyled = createGlobalStyle`
         width: calc(100vw - 95px);
         min-width: calc(100vw - 95px);
         min-height: 100vh;
+        background: ${backgroundBlack};
     }
 
     .NavBar svg path {
@@ -65,15 +69,47 @@ const GlobalStyled = createGlobalStyle`
         
     }
 
+    .Home {
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.3); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+
+    .HomeText {
+        max-width: ${textWidth};
+    }
+
+    .About {
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.3); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+
+    .Projects {
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.3); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+
+    .AboutText, .ProjectsText, .ProjectsSilversmithText, .ProjectsGardeningText, .ProjectsPhotographyText, .ProjectsWebDevelopmentText{
+        max-width: ${textWidth};
+    }
+
     img {
         border-radius: 2%;
     }
-
-    // .About {
-    //     background: url("${require('./assets/images/headshot.jpg')}");
-    //     background-size: cover;
-    //     background-repeat: no-repeat;
-    // }
 
     .avatar {
         vertical-align: middle;
