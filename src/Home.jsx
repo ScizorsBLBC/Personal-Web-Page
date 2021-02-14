@@ -7,7 +7,7 @@ const Home = () => {
                     Hi, I'm Scizors!
                 </h2>
                 <h3>
-                At the moment, I am studying web development in a cohort at Emergent Works. I am excited to share a little about myself & what I am learning
+                At the moment, I am studying web development in a cohort at Emergent Works. I am excited to share a little about myself & what I am learning!
                 </h3>
             </div>
         </div>
