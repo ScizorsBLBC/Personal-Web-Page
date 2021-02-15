@@ -1,10 +1,10 @@
 import React from "react";
 
-import Photography01 from "./assets/images/images-photography/_1110759_60_61_62_63_64_65.png";
-import Photography02 from "./assets/images/images-photography/_1120118_19_20_21_22_23_24.jpg";
-import Photography03 from "./assets/images/images-photography/_1120312_3_4_5_6_7_8.jpg";
-import Photography04 from "./assets/images/images-photography/_1120471_2_3_4_5_6_7.jpg";
-import Photography05 from "./assets/images/images-photography/_1120746.jpg";
+import Photography01 from "./assets/images/images-photography/1110759_60_61_62_63_64_65.png";
+import Photography02 from "./assets/images/images-photography/1120118_19_20_21_22_23_24.jpg";
+import Photography03 from "./assets/images/images-photography/1120312_3_4_5_6_7_8.jpg";
+import Photography04 from "./assets/images/images-photography/1120471_2_3_4_5_6_7.jpg";
+import Photography05 from "./assets/images/images-photography/1120746.jpg";
 import Photography06 from "./assets/images/images-photography/P1040958.jpg";
 import Photography07 from "./assets/images/images-photography/P1050151.jpg";
 import Photography08 from "./assets/images/images-photography/P1050248.jpg";
