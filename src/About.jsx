@@ -20,7 +20,7 @@ const About = () => {
                     Icons used on this site were created by Priyanka, Eucalyp, Jemis Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia, Rivda, & ProSymbols from the Noun Project.  <a href="https://thenounproject.com/"> www.thenounproject.com</a>
                 </p>
                 <p>
-                    Headshot photo by Cabure Bonugli, Shot In The City Photography <a href="https://www.shotinthecityphotography.com/">www.shotinthecityphotography.com</a>
+                    Headshot photo by Cabure Bonugli, Shot In The City Photography. <a href="https://www.shotinthecityphotography.com/">www.shotinthecityphotography.com</a>
                 </p>
             </div>       
         </div>
