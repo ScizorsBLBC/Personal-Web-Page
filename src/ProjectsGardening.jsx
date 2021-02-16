@@ -80,6 +80,9 @@ const ProjectsGardening = () => {
                 <p>
                     I worked as a gardener for Continuum Gardens in Seattle, Washington 2003-2005. The following images are from Continuum Gardens' website. <a href="https://www.continuumgardens.com/">www.continuumgardens.com</a> 
                 </p>
+                <p>
+                    Photos on this page by Erika Langley. <a href="http://www.erikalangley.com/">www.erikalangley.com</a>
+                </p>
             </div>
                 <div className="gallery-wrapper">
                     {gardeningSources.map((gardeningSource) => (
