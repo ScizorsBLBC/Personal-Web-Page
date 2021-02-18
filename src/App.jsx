@@ -14,7 +14,6 @@ const App = (
             <Content/>
         </div>
     </Router>
-
 )
 render(App, document.querySelector("#root"));
 

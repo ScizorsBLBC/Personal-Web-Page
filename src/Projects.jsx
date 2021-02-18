@@ -1,15 +1,9 @@
 import React from "react";
 
-import Projects01 from "./assets/images/project-icons.png";
-
-const projectsSources = [
-    Projects01
-]
-
 const Projects = () => {
     return (
-        <div className="Projects">
-            <div className="ProjectsText">
+        <div className="Projects background-profile">
+            <div className="ProjectsText text-profile">
                 <h2>
                     Projects
                 </h2>

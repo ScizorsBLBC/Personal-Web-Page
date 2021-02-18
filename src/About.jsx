@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="About">
-            <div className="AboutText"> 
+        <div className="About background-profile" >
+            <div className="AboutText text-profile"> 
                 <h2>
                     A li'l something about me:
                 </h2>
                 <p>
-                    I'm currently in a mentorship program with Emergent Works learning web development & computer programming skills. I am studying HTML, CSS, JavaScript, NODE, Parcel, & React.  <a href="https://www.emergentworks.org/"> www.emergentworks.org.</a>
+                    I'm currently in a mentorship program with Emergent Works learning web development & computer programming skills. I am studying HTML, CSS, JavaScript, NODE, Parcel, & React.  <a href="https://www.emergentworks.org/"> www.emergentworks.org</a>
                 </p>
                 <p>
                     My passions include social and environmental justice. I am currently building an app for a project in my mentorship program called Not911. This app will help citizens in the San Francisco Bay Area find emergency resources for issues ranging from violence, mental health, drug overdose, and more. My goal is to help provide resources so that our community members no longer have to rely on the police for assistance in situations where their presence is likely to result in unnecessary violence against innocent citizens. The ultimate goal is to defund the police and re-allocate those resources to more effective public services.
@@ -22,7 +22,7 @@ const About = () => {
                 <p>
                     Headshot photo by Cabure Bonugli, Shot In The City Photography. <a href="https://www.shotinthecityphotography.com/">www.shotinthecityphotography.com</a>
                 </p>
-            </div>       
+            </div>  
         </div>
     )
 }

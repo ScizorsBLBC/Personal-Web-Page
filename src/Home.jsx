@@ -1,14 +1,14 @@
 import React from "react";
 const Home = () => {
     return (
-        <div className="Home">
-            <div className="HomeText">
+        <div className="Home background-profile">
+            <div className="HomeText text-profile">
                 <h2>
                     Hi, I'm Scizors!
                 </h2>
-                <h3>
+                <p>
                 At the moment, I am studying web development in a cohort at Emergent Works. I am excited to share a little about myself & what I am learning!
-                </h3>
+                </p>
             </div>
         </div>
     )

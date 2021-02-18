@@ -52,7 +52,7 @@ const silversmithSources = [
 const ProjectsSilversmith = () => {
     return (
         <div className="ProjectsSilversmith">
-            <div className="ProjectsSilversmithText">
+            <div className="ProjectsSilversmithText text-profile">
                 <h2>
                     Silversmithing
                 </h2>
