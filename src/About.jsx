@@ -5,7 +5,7 @@ const About = () => {
         <div className="About background-profile" >
             <div className="AboutText text-profile"> 
                 <h2>
-                    A li'l something about me:
+                    A lil' something about me:
                 </h2>
                 <p>
                     I'm currently in a mentorship program with Emergent Works learning web development & computer programming skills. I am studying HTML, CSS, JavaScript, NODE, Parcel, & React.  <a href="https://www.emergentworks.org/"> www.emergentworks.org</a>
