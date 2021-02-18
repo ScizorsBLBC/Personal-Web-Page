@@ -1,7 +1,7 @@
 import React from "react";
 const ProjectsWebDevelopment = () => {
     return (
-        <div className="ProjectsWebDevelopment">
+        <div className="ProjectsWebDevelopment background-profile">
             <div className="ProjectsWebDevelopmentText text-profile">
                 <h2>
                     Web Development
