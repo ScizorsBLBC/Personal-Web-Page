@@ -46,7 +46,6 @@ const Content = () => {
                     </p>
                 </footer>
             </div>
-    
     )
 }
 

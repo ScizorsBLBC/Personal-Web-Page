@@ -19,7 +19,6 @@ import Photography16 from "./assets/images/images-photography/P1070633.jpg";
 import Photography17 from "./assets/images/images-photography/P1070852.jpg";
 import Photography18 from "./assets/images/images-photography/P1140211.jpg";
 
-
 const photoSources = [
     Photography01,
     Photography02,
@@ -39,13 +38,12 @@ const photoSources = [
     Photography16,
     Photography17,
     Photography18
-    
 ]
 
 const ProjectsPhotography = () => {
     return (
         <div className="ProjectsPhotography">
-            <div className="ProjectsPhotographyText">
+            <div className="ProjectsPhotographyText text-profile">
                 <h2>
                     Photography
                 </h2>

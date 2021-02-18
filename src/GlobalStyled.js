@@ -2,6 +2,7 @@ import styled, { createGlobalStyle } from "styled-components";
 
 const backgroundBlack = "#010101";  //"#0F070D"
 const textWidth = "35%";
+const textWidthMobile = "100%";
 
 const GlobalStyled = createGlobalStyle`
     body {
@@ -15,6 +16,29 @@ const GlobalStyled = createGlobalStyle`
     * {
         box-sizing: border-box; 
     }
+
+    .background-profile {
+        background-image: url("${require('./assets/images/headshot.jpg')}");
+        background-color: rgba(0,0,0,.333); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-grow: 1;
+        background-position: 20%;
+        background-blend-mode: luminosity;
+    }
+    .text-profile{
+        max-width: ${textWidth};
+    }
+
+@media(max-width: 700px) {
+    .background-profile {
+        background: ${backgroundBlack}
+        }
+          
+    .text-profile {
+        max-width: ${textWidthMobile};
+    }
+}
 
     .app-wrapper {
         position: absolute;
@@ -66,45 +90,6 @@ const GlobalStyled = createGlobalStyle`
     .ProjectNavBar svg {
         height: 50px;
         width: 50px;
-        
-    }
-
-    .Home {
-        background-image: url("${require('./assets/images/headshot.jpg')}");
-        background-color: rgba(0,0,0,.3); 
-        background-size: cover;
-        background-repeat: no-repeat;
-        flex-grow: 1;
-        background-position: 20%;
-        background-blend-mode: luminosity;
-    }
-
-    .HomeText {
-        max-width: ${textWidth};
-    }
-
-    .About {
-        background-image: url("${require('./assets/images/headshot.jpg')}");
-        background-color: rgba(0,0,0,.3); 
-        background-size: cover;
-        background-repeat: no-repeat;
-        flex-grow: 1;
-        background-position: 20%;
-        background-blend-mode: luminosity;
-    }
-
-    .Projects {
-        background-image: url("${require('./assets/images/headshot.jpg')}");
-        background-color: rgba(0,0,0,.3); 
-        background-size: cover;
-        background-repeat: no-repeat;
-        flex-grow: 1;
-        background-position: 20%;
-        background-blend-mode: luminosity;
-    }
-
-    .AboutText, .ProjectsText, .ProjectsSilversmithText, .ProjectsGardeningText, .ProjectsPhotographyText, .ProjectsWebDevelopmentText{
-        max-width: ${textWidth};
     }
 
     img {
@@ -146,11 +131,11 @@ const GlobalStyled = createGlobalStyle`
         max-height: 100%;
         max-width: 100%;
     }
-    
 
     footer {
         border-top: 2px solid margin:60px 20px 20px 20px;
         border-top: .5px solid  #E3C5E3;
     }
 `;
+
 export default GlobalStyled;
