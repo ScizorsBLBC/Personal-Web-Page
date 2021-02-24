@@ -3,13 +3,13 @@ import styled, { createGlobalStyle } from "styled-components";
 const backgroundBlack = "#010101";  //"#0F070D"
 const textWidth = "35%";
 const textWidthMobile = "100%";
-
+const textColor = "#E3C5E3";
 const GlobalStyled = createGlobalStyle`
     body {
         background: ${backgroundBlack};
         font-family: 'Ubuntu', sans-serif;
         min-height:100vh;
-        color: #E3C5E3;
+        color: ${textColor};
         line-height: 1.5em;
     }
 
@@ -43,6 +43,11 @@ const GlobalStyled = createGlobalStyle`
     .app-wrapper {
         position: absolute;
         top: 0;
+    }
+
+    a {
+        color: ${textColor};
+        text-decoration: none;
     }
 
     h1 {
