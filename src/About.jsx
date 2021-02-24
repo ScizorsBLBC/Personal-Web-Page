@@ -17,7 +17,7 @@ const About = () => {
                     In my past, I worked as a professional gardener for Continuum Gardens in Seattle, WA. When I lived in San Cristobal de las Casas in Chiapas, Mexico 2009-2010, I made my living as a silversmith selling handmade jewelry. I enjoy amateur photography and love taking photos while I travel. You can see more about all of this and the work I have done as a web developer in this website’s projects section.
                 </p>
                 <p>
-                    Icons used on this site were created by Priyanka, Eucalyp, Jemis Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia, Rivda, & ProSymbols from the Noun Project.  <a href="https://thenounproject.com/"> www.thenounproject.com</a>
+                    Icons used on this site were created by Priyanka, Eucalyp, Jemis Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia, Rivda, ProSymbols, & Kimmi Studio from the Noun Project.  <a href="https://thenounproject.com/"> www.thenounproject.com</a>
                 </p>
                 <p>
                     Headshot photo by Cabure Bonugli, Shot In The City Photography. <a href="https://www.shotinthecityphotography.com/">www.shotinthecityphotography.com</a>
