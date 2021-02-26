@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "dependencies": {
     "@svgr/parcel-plugin-svgr": "^5.5.0",
     "react": "^17.0.1",
@@ -21,8 +18,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.html --out-dir ./docs",
-    "build": "rimraf docs && parcel build ./src/*.html --out-dir ./docs"
+    "dev": "parcel ./src/index.html --out-dir ./dist",
+    "build": "rimraf dist && parcel build ./src/*.html --out-dir ./dist"
   },
   "repository": {
     "type": "git",
