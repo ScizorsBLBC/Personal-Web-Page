@@ -35,66 +35,63 @@ import Gardening32 from "./assets/images/images-gardening/water06.jpg";
 import Gardening33 from "./assets/images/images-gardening/water07.jpg";
 
 const gardeningSources = [
-    Gardening01,
-    Gardening02,
-    Gardening03,
-    Gardening04,
-    Gardening05,
-    Gardening06,
-    Gardening07,
-    Gardening08,
-    Gardening09,
-    Gardening10,
-    Gardening11,
-    Gardening12,
-    Gardening13,
-    Gardening14,
-    Gardening15,
-    Gardening16,
-    Gardening17,
-    Gardening18,
-    Gardening19,
-    Gardening20,
-    Gardening21,
-    Gardening22,
-    Gardening23,
-    Gardening24,
-    Gardening25,
-    Gardening26,
-    Gardening27,
-    Gardening28,
-    Gardening29,
-    Gardening30,
-    Gardening31,
-    Gardening32,
-    Gardening33
-]
+  Gardening01,
+  Gardening02,
+  Gardening03,
+  Gardening04,
+  Gardening05,
+  Gardening06,
+  Gardening07,
+  Gardening08,
+  Gardening09,
+  Gardening10,
+  Gardening11,
+  Gardening12,
+  Gardening13,
+  Gardening14,
+  Gardening15,
+  Gardening16,
+  Gardening17,
+  Gardening18,
+  Gardening19,
+  Gardening20,
+  Gardening21,
+  Gardening22,
+  Gardening23,
+  Gardening24,
+  Gardening25,
+  Gardening26,
+  Gardening27,
+  Gardening28,
+  Gardening29,
+  Gardening30,
+  Gardening31,
+  Gardening32,
+  Gardening33,
+];
 
 const ProjectsGardening = () => {
-    return (
-        <div className="ProjectsGardening">
-            <div className="ProjectsGardeningText text-profile">
-                <h2>
-                    Gardening
-                </h2>
-                <p>
-                    I worked as a gardener for Continuum Gardens in Seattle, Washington 2003-2005. The following images are from Continuum Gardens' website. <a href="https://www.continuumgardens.com/">www.continuumgardens.com</a> 
-                </p>
-            </div>
-            <div className="gallery-wrapper">
-                {gardeningSources.map((gardeningSource) => (
-                        <div className="image-wrapper"> 
-                            <img src={gardeningSource} />
-                        </div> 
-                ))} 
-            </div>
-            <div>   
-                <p>
-                    Photos on this page by Erika Langley. <a href="http://www.erikalangley.com/">www.erikalangley.com</a>
-                </p>
-            </div> 
-        </div>
-    )
-}
+  return (
+    <div className="ProjectsGardening">
+      <div className="ProjectsGardeningText text-profile">
+        <h2>Gardening</h2>
+        <p>scizors worked as a gardener circa 2003-2005</p>
+      </div>
+      <div className="gallery-wrapper">
+        {gardeningSources.map((gardeningSource) => (
+          <div className="image-wrapper">
+            <img src={gardeningSource} />
+          </div>
+        ))}
+      </div>
+      <div>
+        <p>
+          Photos on this page by Erika Langley.{" "}
+          <a href="http://www.erikalangley.com/">www.erikalangley.com</a>
+        </p>
+      </div>
+    </div>
+  );
+};
 
 export default ProjectsGardening;

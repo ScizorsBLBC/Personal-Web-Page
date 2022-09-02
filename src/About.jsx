@@ -1,32 +1,48 @@
 import React from "react";
 
 const About = () => {
-    return (
-        <div className="About background-profile" >
-            <div className="AboutText text-profile"> 
-                <h2>
-                    A lil' something about me:
-                </h2>
-                <p>
-                    I'm currently in a mentorship program with Emergent Works learning web development & computer programming skills. I am studying HTML, CSS, JavaScript, NODE, Parcel, & React.  <a href="https://www.emergentworks.org/"> www.emergentworks.org</a>
-                </p>
-                <p>
-                    My passions include social and environmental justice. I am currently building an app for a project in my mentorship program called Not911. This app will help citizens in the San Francisco Bay Area find emergency resources for issues ranging from violence, mental health, drug overdose, and more. My goal is to help provide resources so that our community members no longer have to rely on the police for assistance in situations where their presence is likely to result in unnecessary violence against innocent citizens. The ultimate goal is to defund the police and re-allocate those resources to more effective public services.
-                </p>
-                <p>
-                    In my past, I worked as a professional gardener for Continuum Gardens in Seattle, WA. When I lived in San Cristobal de las Casas in Chiapas, Mexico 2009-2010, I made my living as a silversmith selling handmade jewelry. I enjoy amateur photography and love taking photos while I travel. You can see more about all of this and the work I have done as a web developer in this website’s projects section.
-                </p>
-                <p>
-                    Icons used on this site were created by Priyanka, Eucalyp, Jemis Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia, Rivda, ProSymbols, & Kimmi Studio from the Noun Project.  <a href="https://thenounproject.com/"> www.thenounproject.com</a>
-                </p>
-                <p>
-                    Headshot photo by Cabure Bonugli, Shot In The City Photography. <a href="https://www.shotinthecityphotography.com/">www.shotinthecityphotography.com</a>
-                </p>
-            </div>  
-        </div>
-    )
-}
+  return (
+    <div className="About background-profile">
+      <div className="AboutText text-profile">
+        <p>
+          scizors (they/them) is a genderqueer multidisciplinary artist who
+          recently began selling nft art after 29 years of compulsively creating
+          and documenting the world through their often distorted lens
+        </p>
+        <p>
+          their artistic journey began at the age of 14 with b&w film
+          photography and has evolved to include abstract & traditional digital
+          photography, video, machine learning & artificial intelligence, &
+          digital painting/collage work
+        </p>
+        <p>
+          scizors brings their imagination to life using traditional tools such
+          as Adobe Photoshop & Lightroom, Bazaart, Procreate, Logic Pro, &Luma
+          Fusion
+        </p>
+        <p>
+          in addition to often experimental no code artificial intelligence &
+          machine learning tools from Midjourney, Dall-E, Stable Diffusion,
+          Topaz Labs, RunwayML's video & experimental ML labs tools & more
+        </p>
+        <p>
+          most icons used on this site were created by Priyanka, Eucalyp, Jemis
+          Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia,
+          Rivda, ProSymbols, & Kimmi Studio from the Noun Project{" "}
+        </p>
+        <p>
+          <a href="https://thenounproject.com/"> www.thenounproject.com</a>
+        </p>
+        <p>Linktree icon from World Vector Logo </p>
+        <p>
+          <a href="https://worldvectorlogo.com/logo/linktree-2">
+            {" "}
+            www.worldvectorlogo.com
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+};
 
 export default About;
-
-
