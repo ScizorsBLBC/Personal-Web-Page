@@ -1,6 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
 
-const backgroundBlack = "#010101";  //"#0F070D"
+const backgroundBlack = "#010101"; //"#0F070D"
 const textWidth = "35%";
 const textWidthMobile = "100%";
 const textColor = "#E3C5E3";
@@ -14,12 +14,12 @@ const GlobalStyled = createGlobalStyle`
     }
 
     * {
-        box-sizing: border-box; 
+        box-sizing: border-box;
     }
 
     .background-profile {
-        background-image: url("${require('./assets/images/headshot.jpg')}");
-        background-color: rgba(0,0,0,.333); 
+        background-image: url("${require("./assets/images/background.png")}");
+        background-color: rgba(0,0,0,.333);
         background-size: cover;
         background-repeat: no-repeat;
         flex-grow: 1;
@@ -28,13 +28,22 @@ const GlobalStyled = createGlobalStyle`
     }
     .text-profile{
         max-width: ${textWidth};
+        padding: 20px;
+        backdrop-filter: saturate(180%) blur(10px);
+        border-radius: 6.66%;
     }
+
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .container {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
 
 @media(max-width: 700px) {
     .background-profile {
         background: ${backgroundBlack}
         }
-          
+
     .text-profile {
         max-width: ${textWidthMobile};
     }
@@ -55,7 +64,7 @@ const GlobalStyled = createGlobalStyle`
     }
 
     .Content {
-        margin-left: 95px;
+        margin-left: 75px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -79,14 +88,14 @@ const GlobalStyled = createGlobalStyle`
         align-items: center;
         display: flex;
         flex-direction: column;
-        position: fixed;     
+        position: fixed;
         height: 100%;
-        width: 75px;     
-        z-index: 1;           
-        background: #030002; 
-        overflow-x: hidden;    
+        width: 75px;
+        z-index: 1;
+        background: #030002;
+        overflow-x: hidden;
         padding: 10px;
-    } 
+    }
 
     .ProjectNavBar{
         padding-left: 20px;
@@ -130,7 +139,7 @@ const GlobalStyled = createGlobalStyle`
             width: 100%;
             height: 200px;
         }
-        
+
     }
     .image-wrapper > img {
         max-height: 100%;

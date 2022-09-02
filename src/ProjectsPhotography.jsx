@@ -20,47 +20,50 @@ import Photography17 from "./assets/images/images-photography/P1070852.jpg";
 import Photography18 from "./assets/images/images-photography/P1140211.jpg";
 
 const photoSources = [
-    Photography01,
-    Photography02,
-    Photography03,
-    Photography04,
-    Photography05,
-    Photography06,
-    Photography07,
-    Photography08,
-    Photography09,
-    Photography10,
-    Photography11,
-    Photography12,
-    Photography13,
-    Photography14,
-    Photography15,
-    Photography16,
-    Photography17,
-    Photography18
-]
+  Photography01,
+  Photography02,
+  Photography03,
+  Photography04,
+  Photography05,
+  Photography06,
+  Photography07,
+  Photography08,
+  Photography09,
+  Photography10,
+  Photography11,
+  Photography12,
+  Photography13,
+  Photography14,
+  Photography15,
+  Photography16,
+  Photography17,
+  Photography18,
+];
 
 const ProjectsPhotography = () => {
-    return (
-        <div className="ProjectsPhotography">
-            <div className="ProjectsPhotographyText text-profile">
-                <h2>
-                    Photography
-                </h2>
-                <p>
-                    I am an avid amateur photographer. These images were shot on a Panasonic Lumix GF1 camera and edited using Adobe Lightroom.
-                </p>
-            </div>
-           <div className="gallery-wrapper">
-                {photoSources.map((photoSource) => (
-                        <div className="image-wrapper"> 
-                            <img src={photoSource} />
-                        </div> 
-                ))} 
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="ProjectsPhotography">
+      <div className="ProjectsPhotographyText text-profile">
+        <h2>photography</h2>
+        <p>
+          scizors has been a photographer for 29 years and has a backlog of
+          thousands of photos to edit
+        </p>
+        <p>
+          these images were shot on a Panasonic Lumix GF1 camera, mostly using
+          an f1.7 20mm pancake lens & edited using Adobe Lightroom
+        </p>
+      </div>
+      <div className="gallery-wrapper">
+        {photoSources.map((photoSource) => (
+          <div className="image-wrapper">
+            <img src={photoSource} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default ProjectsPhotography;
 
@@ -68,4 +71,4 @@ export default ProjectsPhotography;
 // div element images are shown in, highlighted
 // layout of thumbnnails div?
 // onclick handler when click thumbnail changes image highlighted
-// how to get images into the file temporarily link to image online 
+// how to get images into the file temporarily link to image online

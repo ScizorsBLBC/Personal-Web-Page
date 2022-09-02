@@ -25,50 +25,50 @@ import Silversmithing21 from "./assets/images/images-silversmithing/silversmithi
 import Silversmithing22 from "./assets/images/images-silversmithing/silversmithing22.jpg";
 
 const silversmithSources = [
-    Silversmithing00,
-    Silversmithing01,
-    Silversmithing02,
-    Silversmithing03,
-    Silversmithing04,
-    Silversmithing05,
-    Silversmithing06,
-    Silversmithing07,
-    Silversmithing08,
-    Silversmithing09,
-    Silversmithing10,
-    Silversmithing11,
-    Silversmithing12,
-    Silversmithing13,
-    Silversmithing14,
-    Silversmithing15,
-    Silversmithing16,
-    Silversmithing17,
-    Silversmithing18,
-    Silversmithing19,
-    Silversmithing20,
-    Silversmithing21,
-    Silversmithing22
-]
+  Silversmithing00,
+  Silversmithing01,
+  Silversmithing02,
+  Silversmithing03,
+  Silversmithing04,
+  Silversmithing05,
+  Silversmithing06,
+  Silversmithing07,
+  Silversmithing08,
+  Silversmithing09,
+  Silversmithing10,
+  Silversmithing11,
+  Silversmithing12,
+  Silversmithing13,
+  Silversmithing14,
+  Silversmithing15,
+  Silversmithing16,
+  Silversmithing17,
+  Silversmithing18,
+  Silversmithing19,
+  Silversmithing20,
+  Silversmithing21,
+  Silversmithing22,
+];
 const ProjectsSilversmith = () => {
-    return (
-        <div className="ProjectsSilversmith">
-            <div className="ProjectsSilversmithText text-profile">
-                <h2>
-                    Silversmithing
-                </h2>
-                <p>
-                    I was a Silversmith in San Christobal de las Casas, Chiapas, Mexico 2009-2010. Each piece of jewelry was hand crafted and one of a kind. These photos have low image quality as they were taken on an old iPhone6.
-                </p>
-            </div>
-            <div className="gallery-wrapper">
-                {silversmithSources.map((silversmithSource) => (
-                        <div className="image-wrapper"> 
-                            <img src={silversmithSource} />
-                        </div>
-                ))}
-            </div> 
-        </div>
-    )
-}
+  return (
+    <div className="ProjectsSilversmith">
+      <div className="ProjectsSilversmithText text-profile">
+        <h2>silversmithing</h2>
+        <p>
+          scizors worked as a silversmith in San Christobal de las Casas,
+          Chiapas, Mexico 2009-2010
+        </p>
+        <p>each piece of jewelry was hand crafted and one of a kind</p>
+      </div>
+      <div className="gallery-wrapper">
+        {silversmithSources.map((silversmithSource) => (
+          <div className="image-wrapper">
+            <img src={silversmithSource} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default ProjectsSilversmith;
