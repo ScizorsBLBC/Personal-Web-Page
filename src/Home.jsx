@@ -4,11 +4,11 @@ const Home = () => {
     <div className="Home background-profile">
       <div className="HomeText text-profile">
         <h1>scizors</h1>
-        <h2>under construction</h2>
-        <p>
-          find me on twitter and view my nft collections for sale by clicking
-          the linktree icon
-        </p>
+        <h2>multi disciplinary artist</h2>
+        <h3>
+          photography, digital painting, machine learning, artificial
+          intelligence
+        </h3>
       </div>
     </div>
   );

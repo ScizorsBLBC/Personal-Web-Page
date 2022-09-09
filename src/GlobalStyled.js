@@ -1,9 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 const backgroundBlack = "#010101"; //"#0F070D"
-const textWidth = "35%";
+const textWidth = "100%";
 const textWidthMobile = "100%";
-const textColor = "#E3C5E3";
+const textColor = "#f4ecfa";
+// E3C5E3 D9C4E6
 const GlobalStyled = createGlobalStyle`
     body {
         background: ${backgroundBlack};
@@ -16,22 +17,25 @@ const GlobalStyled = createGlobalStyle`
     * {
         box-sizing: border-box;
     }
-
+    .text-profile{
+        max-width: ${textWidth};
+        text-align: center;
+        padding: 23%;
+        padding-top: 6.66%;
+        padding-bottom: 6.66%;
+    }
     .background-profile {
         background-image: url("${require("./assets/images/background.png")}");
+        filter: saturate(180%);
+        min-height: 130vh;
         background-color: rgba(0,0,0,.333);
-        background-size: cover;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         flex-grow: 1;
         background-position: 20%;
         background-blend-mode: luminosity;
     }
-    .text-profile{
-        max-width: ${textWidth};
-        padding: 20px;
-        backdrop-filter: saturate(180%) blur(10px);
-        border-radius: 6.66%;
-    }
+
 
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .container {
@@ -64,11 +68,11 @@ const GlobalStyled = createGlobalStyle`
     }
 
     .Content {
-        margin-left: 75px;
+        margin-left: 60px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 10px;
+        padding: 20px;
         width: calc(100vw - 95px);
         min-width: calc(100vw - 95px);
         min-height: 100vh;

@@ -74,7 +74,7 @@ const ProjectsGardening = () => {
   return (
     <div className="ProjectsGardening">
       <div className="ProjectsGardeningText text-profile">
-        <h2>Gardening</h2>
+        <h2>gardening</h2>
         <p>scizors worked as a gardener circa 2003-2005</p>
       </div>
       <div className="gallery-wrapper">
