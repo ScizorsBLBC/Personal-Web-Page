@@ -15,7 +15,7 @@ const About = () => {
         <h4>
           scizors brings their imagination to life using traditional tools such
           as Adobe Photoshop & Lightroom, Bazaart, Procreate, Logic Pro, & Luma
-          Fusion; in addition to oftern experimental no code artificial
+          Fusion; in addition to often experimental no code artificial
           intelligence \ machine learning tools from Midjourney, Dall-E, Stable
           Diffusion, Topaz Labs, RunwayML, & more
         </h4>
