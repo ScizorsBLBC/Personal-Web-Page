@@ -20,7 +20,7 @@ const GlobalStyled = createGlobalStyle`
     .text-profile{
         max-width: ${textWidth};
         text-align: center;
-        padding: 23%;
+        padding: 10%;
         padding-top: 6.66%;
         padding-bottom: 6.66%;
     }
