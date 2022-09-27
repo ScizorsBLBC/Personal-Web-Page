@@ -1,6 +1,6 @@
-<h1 align="center"><scizors></h1>
+<h1 align="center">scizors</h1>
 
-<p align="center"><sorry mom></p>
+<p align="center">sorry mom</p>
 
 ## Links
 
@@ -26,6 +26,7 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 - JavaScript
 - React
+- Material UI
 - Yarn
 - Node
 - NPM
