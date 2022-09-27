@@ -7,13 +7,12 @@ import NavBar from "./NavBar";
 import GlobalStyled from "./GlobalStyled";
 
 const App = (
-    <Router>
-        <div className="app-wrapper">
-            <GlobalStyled/>
-            <NavBar/>
-            <Content/>
-        </div>
-    </Router>
-)
+  <Router>
+    <div className="app-wrapper">
+      <GlobalStyled />
+      <NavBar />
+      <Content />
+    </div>
+  </Router>
+);
 render(App, document.querySelector("#root"));
-

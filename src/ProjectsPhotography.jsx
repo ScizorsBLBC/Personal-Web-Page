@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "@mui/material/Card";
 
 import Photography01 from "./assets/images/images-photography/1110759_60_61_62_63_64_65.png";
 import Photography02 from "./assets/images/images-photography/1120118_19_20_21_22_23_24.jpg";
@@ -44,15 +45,17 @@ const ProjectsPhotography = () => {
   return (
     <div className="ProjectsPhotography">
       <div className="ProjectsPhotographyText text-profile">
-        <h2>photography</h2>
-        <p>
-          scizors has been a photographer for 29 years and has a backlog of
-          thousands of photos to edit
-        </p>
-        <p>
-          these images were shot on a Panasonic Lumix GF1 camera, mostly using
-          an f1.7 20mm pancake lens & edited using Adobe Lightroom
-        </p>
+        <Card elevation={24} style={{ backgroundColor: "transparent" }}>
+          <h2>photography</h2>
+          <p>
+            scizors has been a photographer for 29 years and has a backlog of
+            thousands of photos
+          </p>
+          <p>
+            these images were shot on a Panasonic Lumix GF1 camera, mostly using
+            an f1.7 20mm pancake lens
+          </p>
+        </Card>
       </div>
       <div className="gallery-wrapper">
         {photoSources.map((photoSource) => (
@@ -66,7 +69,7 @@ const ProjectsPhotography = () => {
 };
 
 export default ProjectsPhotography;
-
+//TODO:
 // Change state for image url
 // div element images are shown in, highlighted
 // layout of thumbnnails div?

@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "@mui/material/Card";
 
 import Gardening01 from "./assets/images/images-gardening/commercial01.jpg";
 import Gardening02 from "./assets/images/images-gardening/commercial02.jpg";
@@ -73,9 +74,11 @@ const gardeningSources = [
 const ProjectsGardening = () => {
   return (
     <div className="ProjectsGardening">
-      <div className="ProjectsGardeningText text-profile">
-        <h2>gardening</h2>
-        <p>scizors worked as a gardener circa 2003-2005</p>
+      <div elevation={24} className="ProjectsGardeningText text-profile">
+        <Card elevation={24} style={{ backgroundColor: "transparent" }}>
+          <h2>gardening</h2>
+          <p>scizors worked as a gardener circa 2003-2005</p>
+        </Card>
       </div>
       <div className="gallery-wrapper">
         {gardeningSources.map((gardeningSource) => (

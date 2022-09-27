@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "@mui/material/Card";
 
 import Silversmithing00 from "./assets/images/images-silversmithing/silversmithing00.jpg";
 import Silversmithing01 from "./assets/images/images-silversmithing/silversmithing01.jpg";
@@ -53,12 +54,18 @@ const ProjectsSilversmith = () => {
   return (
     <div className="ProjectsSilversmith">
       <div className="ProjectsSilversmithText text-profile">
-        <h2>silversmithing</h2>
-        <p>
-          scizors worked as a silversmith in San Christobal de las Casas,
-          Chiapas, Mexico 2009-2010
-        </p>
-        <p>each piece of jewelry was hand crafted and one of a kind</p>
+        <Card
+          elevation={24}
+          style={{ textColor: "#f4ecfa" }}
+          style={{ backgroundColor: "transparent" }}
+        >
+          <h2>silversmithing</h2>
+          <p>
+            scizors worked as a silversmith in San Christobal de las Casas,
+            Chiapas, Mexico 2009-2010
+          </p>
+          <p>each piece of jewelry was hand crafted and one of a kind</p>
+        </Card>
       </div>
       <div className="gallery-wrapper">
         {silversmithSources.map((silversmithSource) => (

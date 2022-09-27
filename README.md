@@ -1,18 +1,52 @@
-scizors is a slacker and needs to make a readme you should chide them about this
+<h1 align="center"><scizors></h1>
 
-<!-- https://parceljs.org/
+<p align="center"><sorry mom></p>
 
-parcel 1 use this first then upgradfe to the link above maybe?
-https://en.parceljs.org/getting_started.html
+## Links
 
-Using yarn not npm
+- [Repo](https://github.com/ScizorsBLBC/Personal-Web-Page "<project-name> Repo")
 
-to start local dev run : parcel src/index.html
+- [Live](https://www.scizors.wtf "Live View")
 
-TODO: remove linked in and github links
-add twitter and other links
-add video background embedded from arweave
+- [Bugs](https://github.com/ScizorsBLBC/Personal-Web-Page/issues "Issues Page")
 
-<iframe src=”https://3xboa3lvh4ura4dpsoxl7jawwj5idmpchl46acqoew2c3wtz6ruq.arweave.net/3cLgbXU_KRBwb5Ouv6QWsnqBseI6-eAKDiW0Ldp59Gk’ frameborder=”0” allowfullscreen></iframe>
+## Available Commands
 
-(metadata: {"name":"comatose visions 4\\30","created_by":"scizors.eth","external_url":"https://linktr.ee/scizors.eth","description":"sorry mom\n\nto the extent possible under law, scizors.eth has waived all copyright and related or neighboring rights to scizors.eth\n\nthis work is published from: United States","attributes":[{"trait_type":"artist","value":"scizors.eth"},{"trait_type":"license","value":"cc0 1.0 Universal"},{"trait_type":"collection","value":"comatose visions"}],"animation_details":{"bytes":241180615,"format":"MP4","duration":606,"sha256":"674dbde9794cd1ea9bc53a48332367eca5f9680b99cd211a8a889b56e8b18167","width":1024,"height":1024,"codecs":["H.264"]},"animation":"https://arweave.net/3cLgbXU_KRBwb5Ouv6QWsnqBseI6-eAKDiW0Ldp59Gk","animation_url":"https://arweave.net/3cLgbXU_KRBwb5Ouv6QWsnqBseI6-eAKDiW0Ldp59Gk","image_details":{"bytes":1089082,"format":"PNG","sha256":"a24413d96ae2a8594c911112b935ad6c2fc59d43c1bb06944672fcca87cc321e","width":1024,"height":1024},"image":"https://arweave.net/yWHU19l-kuXq0-XbJQioaZLihdQJ1bWbcZE3MxB_cZg","image_url":"https://arweave.net/yWHU19l-kuXq0-XbJQioaZLihdQJ1bWbcZE3MxB_cZg"}) -->
+In the project directory, you can run:
+
+### `parcel ./src/index.html`,
+
+This command Runs the app in Development mode. Open [http://localhost:1234](http://localhost:1234) to view it in the browser. The page will reload if you make edits.
+
+### `yarn install`,
+
+Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
+
+## Built With
+
+- JavaScript
+- React
+- Yarn
+- Node
+- NPM
+- Webpack
+- HTML
+- CSS
+
+## Future Updates
+
+- [ ] Video Background
+
+## Author
+
+**scizors**
+
+- [Profile](https://github.com/ScizorsBLBC "scizors")
+- [Email](mailto:scizorsblbc@gmail.com?subject=Hi "Hi!")
+- [Website](https://www.scizors.wtf)
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
