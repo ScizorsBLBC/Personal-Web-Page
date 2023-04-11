@@ -68,18 +68,18 @@ const Home = () => {
           <h2>li'l dumpy cult welcomes thee</h2>
           <VideoComponent />
         </Card>
-        <Card className="Airtable">
+        <Card elevation={24} style={{ backgroundColor: "transparent" }}>
           <h2>aspirants of the li'l dumpy cult congregation</h2>
           <p>click to expand</p>
           <AirtableEmbedCultMembers />
         </Card>
 
-        <Card className="Airtable">
+        <Card elevation={24} style={{ backgroundColor: "transparent" }}>
           <h2>selected verses from the revered Book of Dumpy</h2>
           <p>click to expand</p>
           <AirtableEmbedDumpyBook />
         </Card>
-        <Card className="Airtable">
+        <Card elevation={24} style={{ backgroundColor: "transparent" }}>
           <h2>beseech entrance to li'l dumpy's fold</h2>
           <p>
             all seekers, must call 801-960-2878, endure 3 minutes of barking,
