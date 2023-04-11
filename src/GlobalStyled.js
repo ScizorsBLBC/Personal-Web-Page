@@ -32,6 +32,46 @@ const GlobalStyled = createGlobalStyle`
         box-sizing: border-box;
     }
 
+.Airtable {
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: "transparent";
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+
+th {
+  background-color: "transparent";
+  color: #ffffff;
+}
+
+td {
+  color: #ffffff;
+}
+
+tr:hover {
+  background-color: "transparent";
+}
+
+}
+
     .text-profile {
         margin: auto;
         max-width: ${textWidth};
