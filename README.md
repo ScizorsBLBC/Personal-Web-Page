@@ -22,7 +22,7 @@ This command Runs the app in Development mode. Open [http://localhost:1234](http
 
 Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
 
-### 'yarn dev' 
+### yarn dev, 
 
 Runs app in local host browser ofr development use.
 
