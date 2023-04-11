@@ -66,13 +66,13 @@ export const LilDumpyCult = (props) => {
           <h2>li'l dumpy cult welcomes thee</h2>
           <VideoComponent />
 
-          <Card>
+          <Card elevation={24} style={{ backgroundColor: "transparent" }}>
             <h2>li'l dumpy cult applicants</h2>
             <p>click to expand</p>
             <AirtableEmbedCultMembers />
           </Card>
 
-          <Card>
+          <Card elevation={24} style={{ backgroundColor: "transparent" }}>
             <h2>the Book of Dumpy</h2>
             <p>click to expand</p>
             <AirtableEmbedDumpyBook />

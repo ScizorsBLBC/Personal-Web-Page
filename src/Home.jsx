@@ -60,39 +60,40 @@ const Home = () => {
   return (
     <div className="Home background-profile">
       <div className="HomeText text-profile">
-        <Card elevation={24} style={{ backgroundColor: "transparent" }}>
+        <Card
+          className="Airtable"
+          elevation={24}
+          style={{ backgroundColor: "transparent" }}
+        >
           <h2>li'l dumpy cult welcomes thee</h2>
           <VideoComponent />
+        </Card>
+        <Card className="Airtable">
+          <h2>aspirants of the li'l dumpy cult congregation</h2>
+          <p>click to expand</p>
+          <AirtableEmbedCultMembers />
+        </Card>
 
-          <Card>
-            <h2>aspirants of the li'l dumpy cult congregation</h2>
-            <p>click to expand</p>
-            <AirtableEmbedCultMembers />
-          </Card>
-
-          <Card>
-            <h2>selected verses from the revered Book of Dumpy</h2>
-            <p>click to expand</p>
-            <AirtableEmbedDumpyBook />
-          </Card>
-          <Card>
-            return (<h2>beseech entrance to li'l dumpy's fold</h2>
-            <p>
-              all seekers, must call 801-960-2878, endure 3 minutes of barking,
-              and reveal unto us the manner of li'l dumpy's dream
-              manifestations. line open 24/7. can't call? reach out to
-              scizors.eth@gmail.com
-            </p>
-            <AirtableEmbedCultApplication />)
-          </Card>
-
-          {/* <h1>scizors</h1>
+        <Card className="Airtable">
+          <h2>selected verses from the revered Book of Dumpy</h2>
+          <p>click to expand</p>
+          <AirtableEmbedDumpyBook />
+        </Card>
+        <Card className="Airtable">
+          <h2>beseech entrance to li'l dumpy's fold</h2>
+          <p>
+            all seekers, must call 801-960-2878, endure 3 minutes of barking,
+            and reveal unto us the manner of li'l dumpy's dream manifestations.
+            line open 24/7. can't call? reach out to scizors.eth@gmail.com
+          </p>
+          <AirtableEmbedCultApplication />)
+        </Card>
+        {/* <h1>scizors</h1>
           <h3>photography</h3>
           <h3>machine learning</h3>
           <h3>artificial intelligence</h3>
           <h3>code based generative art</h3>
           <h3>digital painting</h3> */}
-        </Card>
       </div>
     </div>
   );
