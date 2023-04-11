@@ -67,18 +67,18 @@ export const LilDumpyCult = (props) => {
           <VideoComponent />
 
           <Card elevation={24} style={{ backgroundColor: "transparent" }}>
-            <h2>li'l dumpy cult applicants</h2>
+            <h2>aspirants of the li'l dumpy cult congregation</h2>
             <p>click to expand</p>
             <AirtableEmbedCultMembers />
           </Card>
 
           <Card elevation={24} style={{ backgroundColor: "transparent" }}>
-            <h2>the Book of Dumpy</h2>
+            <h2>selected verses from the revered Book of Dumpy</h2>
             <p>click to expand</p>
             <AirtableEmbedDumpyBook />
           </Card>
           <Card>
-            return (<h2>beseech entrance to li'l dumpy's fold</h2>
+            <h2>beseech entrance to li'l dumpy's fold</h2>
             <p>
               all seekers, must call 801-960-2878, endure 3 minutes of barking,
               and reveal unto us the manner of li'l dumpy's dream
