@@ -77,7 +77,7 @@ export const LilDumpyCult = (props) => {
             <p>click to expand</p>
             <AirtableEmbedDumpyBook />
           </Card>
-          <Card>
+          <Card elevation={24} style={{ backgroundColor: "transparent" }}>
             <h2>beseech entrance to li'l dumpy's fold</h2>
             <p>
               all seekers, must call 801-960-2878, endure 3 minutes of barking,
