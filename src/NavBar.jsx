@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import HomeIcon from "./assets/icons/home-icon.svg";
+import DumpyCultIcon from "./assets/icons/dumpy-cult-icon.svg";
 import ProjectsPhotographyIcon from "./assets/icons/projects-photography-icon.svg";
 import ProjectsSilversmithIcon from "./assets/icons/projects-silversmith-icon.svg";
 import ProjectsGardeningIcon from "./assets/icons/projects-gardening-icon.svg";
@@ -15,10 +16,18 @@ const NavBar = (props) => {
   return (
     <div className="NavBar">
       <img src={Avatar} alt="Avatar" className="avatar" title="hi!"></img>
-      <Link onClick={() => {}} to="/" title="home">
+      {/* <Link onClick={() => {}} to="/" title="home">
         <HomeIcon />
+      </Link> */}
+      {/* <p>{"home"}</p> */}
+      <Link
+        className="ProjectNavBar"
+        to="/lil-dumpy-cult"
+        title="li'l dumpy cult"
+      >
+        <DumpyCultIcon />
       </Link>
-
+      {/* <p>{"photography"}</p> */}
       <Link
         className="ProjectNavBar"
         to="/projects-photography"
@@ -26,7 +35,7 @@ const NavBar = (props) => {
       >
         <ProjectsPhotographyIcon />
       </Link>
-
+      {/* <p>{"photography"}</p> */}
       <Link
         className="ProjectNavBar"
         to="/projects-silversmith"
@@ -34,7 +43,7 @@ const NavBar = (props) => {
       >
         <ProjectsSilversmithIcon />
       </Link>
-
+      {/* <p>{"silversmithing"}</p> */}
       <Link
         className="ProjectNavBar"
         to="/projects-gardening"
@@ -42,17 +51,18 @@ const NavBar = (props) => {
       >
         <ProjectsGardeningIcon />
       </Link>
-
+      {/* <p>{"gardening"}</p> */}
       <Link onClick={() => {}} to="/about" title="about me">
         <AboutIcon />
       </Link>
-
+      {/* <p>{"about me"}</p> */}
       <a
         onClick={() => {}}
         href="https://linktr.ee/scizors.eth"
         target="_blank"
         title="linktree"
       >
+        {/*}        <p>{"links"}</p> */}
         <NetworkingIcon />
       </a>
     </div>
