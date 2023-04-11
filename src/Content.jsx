@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
 
-import { BioBlock } from "./BioBlock";
+import { LilDumpyCult } from "./LilDumpyCult";
 import Projects from "./Projects";
 import ProjectsPhotography from "./ProjectsPhotography";
 import ProjectsSilversmith from "./ProjectsSilversmith";
@@ -16,8 +16,8 @@ const Content = () => {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route exact path="/bio-block">
-        <BioBlock />
+      <Route exact path="/lil-dumpy-cult">
+        <LilDumpyCult />
       </Route>
       <Route exact path="/projects">
         <Projects />

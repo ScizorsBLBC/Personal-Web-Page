@@ -13,19 +13,26 @@ const About = () => {
             artistic journey began at the age of 14 with b&w film photography.
             it has evolved to include abstract & traditional digital
             photography, code-based generative art, video, machine learning \
-            artificial intelligence, & digital painting
+            artificial intelligence, AI animation, & digital painting
           </p>
           <p>
             scizors brings their imagination to life using traditional tools
             such as Adobe Photoshop & Lightroom, Bazaart, Procreate, Logic Pro,
-            & Luma Fusion; in addition to often experimental no code artificial
-            intelligence \ machine learning tools from Midjourney, Dall-E,
-            Stable Diffusion, Topaz Labs, RunwayML, & more
+            & Davinci Resolve; in addition to often experimental no code
+            artificial intelligence \ machine learning tools from Midjourney,
+            Dall-E, Stable Diffusion, Topaz Labs, RunwayML, & more
+          </p>
+          <p>
+            scizors has had their artwork exhibited at Art Basel Miami 2022,
+            imnotArt Gallery Chicago, 50mm Collective Meta Masquerade 2022, NFT
+            Paris 2023, NFT Korea 2023 in Seoul, Superchief Gallery NYC Oculus
+            Gallery, and was a featured artist at NFT NYC 2023
           </p>
           <p>
             icons used on this site were created by Priyanka, Eucalyp, Jemis
             Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia,
-            Rivda, ProSymbols, & Kimmi Studio from the Noun Project{" "}
+            Rivda, ProSymbols, Petrine Cross, & Kimmi Studio from the Noun
+            Project{" "}
           </p>
           <p>
             <a href="https://thenounproject.com/"> www.thenounproject.com</a>
