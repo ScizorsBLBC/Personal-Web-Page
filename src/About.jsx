@@ -6,34 +6,32 @@ const About = () => {
     <div className="About background-profile">
       <div className="AboutText text-profile">
         <Card elevation={24} style={{ backgroundColor: "transparent" }}>
-          <p>
-            scizors (they/them) is a genderqueer multidisciplinary artist who
-            began selling nft art after 29 years of compulsively creating and
-            documenting the world through an often distorted lens. their
-            artistic journey began at the age of 14 with b&w film photography.
-            it has evolved to include abstract & traditional digital
-            photography, code-based generative art, video, machine learning \
-            artificial intelligence, AI animation, & digital painting
-          </p>
-          <p>
-            scizors brings their imagination to life using traditional tools
-            such as Adobe Photoshop & Lightroom, Bazaart, Procreate, Logic Pro,
-            & Davinci Resolve; in addition to often experimental no code
-            artificial intelligence \ machine learning tools from Midjourney,
-            Dall-E, Stable Diffusion, Topaz Labs, RunwayML, & more
-          </p>
-          <p>
-            scizors has had their artwork exhibited at Art Basel Miami 2022,
-            imnotArt Gallery Chicago, 50mm Collective Meta Masquerade 2022, NFT
-            Paris 2023, NFT Korea 2023 in Seoul, Superchief Gallery NYC Oculus
-            Gallery, and was a featured artist at NFT NYC 2023
-          </p>
-          <p>
-            icons used on this site were created by Priyanka, Eucalyp, Jemis
-            Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia,
-            Rivda, ProSymbols, Petrine Cross, & Kimmi Studio from the Noun
-            Project{" "}
-          </p>
+        <p>
+           scizors (they/them) is a genderqueer multidisciplinary artist who
+           began selling art on NFT smart contracts after 29 years of
+           compulsively creating and documenting the world through an often
+           distorted lens. their artistic journey started at the age of 14 with
+           B&W film photography. it has evolved to include abstract &
+           traditional digital photography, code-based generative art, video,
+           machine learning \ artificial intelligence, digital painting, AI
+           animation, & digital fashion
+         </p>
+         <p>
+           scizors brings their imagination to life using traditional tools
+           such as Adobe Photoshop & Lightroom, Bazaart, Procreate, Photomosh,
+           Logic Pro, & Davinci Resolve
+         </p>
+         <p>
+           scizors uses artificial intelligence \ machine learning tools from
+           Midjourney, Dall-E, Stable Diffusion, Deforum, Topaz Labs, RunwayML,
+           & more
+         </p>
+         <p>
+           shown in Art Basel Miami, Paris, Chicago, Seoul, NYC, LA, Rome,
+           Lisbon, Reno, Tokyo, & the MetaCannes Film Festival
+         </p>
+         <p>sending a hella special shout out to the team at Superchief Gallery, and the MetaCannes Film Festival for putting my art in front of a worldwide audience, and even a times square billboard (!!!)</p>
+         <p>all scizors' art is cc0</p>
           <p>
             <a href="https://thenounproject.com/"> www.thenounproject.com</a>
           </p>
