@@ -31,16 +31,18 @@ const About = () => {
            Lisbon, Reno, Tokyo, & the MetaCannes Film Festival
          </p>
          <p>sending a hella special shout out to the team at Superchief Gallery, and the MetaCannes Film Festival for putting my art in front of a worldwide audience, and even a times square billboard (!!!)
-
+          <p>
           MetaCannes entry links:
           <a href="https://filmsquad.io/let-me-bang-papier-mache/"> let me bang, papier-mâché</a>
-
+          </p>
+          <p>
           <a href="https://gallery.manifold.xyz/0x6ff0de115037a5f36286bb3a19808cf141ff7aed/312"> watch let me bang, papier-mâché here </a>
-
+          </p>
+          <p>
           <a href="https://filmsquad.io/cant-stop-us-now/"> can't stop us now</a>
-
+          </p>
+          <p>
           <a href="https://foundation.app/mint/eth/0x6Ff0De115037a5f36286Bb3a19808Cf141fF7Aed/328"> watch can't stop us now here</a>
-
          </p>
          <p>all scizors' art is cc0</p>
           <p>
