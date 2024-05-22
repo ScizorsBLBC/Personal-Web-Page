@@ -28,10 +28,10 @@ const About = () => {
          </p>
          <p>
            shown in Art Basel Miami, Paris, Chicago, Seoul, NYC, LA, Rome,
-           Lisbon, Reno, Tokyo, & the MetaCannes Film Festival
+           Lisbon, Reno, Tokyo, Eindhoven, & the MetaCannes Film Festival
          </p>
          <p>
-          sending a hella special shout out to the team at Superchief Gallery, and the MetaCannes Film Festival for putting my art in front of a worldwide audience, and even a times square billboard (!!!)
+          sending hella special shout outs to Claire Silver, the teams at Superchief Gallery, A2 Accelerate Art, immnotArt Gallery, Nox Gallery, 50mm Collective, and the MetaCannes Film Festival for putting my art in front of a worldwide audience, and even a times square billboard (!!!)
           </p>
           <p>
           <a href="https://filmsquad.io/let-me-bang-papier-mache/">| MetaCannes Bio: let me bang, papier-mâché |</a>
