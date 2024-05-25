@@ -31,7 +31,7 @@ const About = () => {
            Lisbon, Reno, Tokyo, Eindhoven, & the MetaCannes Film Festival
          </p>
          <p>
-          sending hella special shout outs to Claire Silver, the teams at Superchief Gallery, A2 Accelerate Art, immnotArt Gallery, Nox Gallery, 50mm Collective, and the MetaCannes Film Festival for putting my art in front of a worldwide audience, and even a times square billboard (!!!)
+          sending hella special shout outs to Claire Silver, the teams at Superchief Gallery, A2 Accelerate Art, imnotArt Gallery, Nox Gallery, 50mm Collective, and the MetaCannes Film Festival for putting my art in front of a worldwide audience... and even a times square billboard, thanks for that surprise Ed Zipco (!!!)
           </p>
           <p>
           <a href="https://filmsquad.io/let-me-bang-papier-mache/">| MetaCannes Bio: let me bang, papier-mâché |</a>
@@ -46,6 +46,11 @@ const About = () => {
           <a href="https://foundation.app/mint/eth/0x6Ff0De115037a5f36286Bb3a19808Cf141fF7Aed/328">| watch can't stop us now here |</a>
          </p>
          <p>all scizors' art is cc0</p>
+         <p>
+            icons used on this site were created by Priyanka, Eucalyp, Jemis
+            Mali, Hadi, Iconixar, Iconcheese, Caio Nery Filho, Yamini Ahluwalia,
+            Rivda, ProSymbols, & Kimmi Studio from the Noun Project{" "}
+          </p>
           <p>
             <a href="https://filmsquad.io/let-me-bang-papier-mache/"> www.thenounproject.com</a>
           </p>
