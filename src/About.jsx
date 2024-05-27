@@ -3,10 +3,16 @@ import Card from "@mui/material/Card";
 
 const VideoComponent = () => {
   return (
-    <video width="30%" height="30%" autoPlay loop muted>
-      <iframe width="1061" height="1886" src="https://www.youtube.com/embed/Rk4LECf5Nj4" title="super fake rare li&#39;l dumpy 2: this ski mask ain&#39;t for covid in  Times Square NYC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      Your browser does not support the video tag.
-    </video>
+    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+      <iframe 
+        src="https://www.youtube.com/embed/Rk4LECf5Nj4"
+        title="YouTube video player"
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
+    </div>
   );
 };
 
