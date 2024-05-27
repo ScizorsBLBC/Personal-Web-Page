@@ -5,7 +5,7 @@ const VideoComponent = () => {
   return (
     <video width="30%" height="30%" autoPlay loop muted>
       <source
-        src="https://x.com/i/status/1767667373044277466"
+        src="https://youtube.com/shorts/Rk4LECf5Nj4?feature=share"
         type="video/mp4"
       />
       Your browser does not support the video tag.
