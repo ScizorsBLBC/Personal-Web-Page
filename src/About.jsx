@@ -3,9 +3,9 @@ import Card from "@mui/material/Card";
 
 const VideoComponent = () => {
   return (
-    <video width="50%" height="50%" autoPlay loop muted>
+    <video width="30%" height="30%" autoPlay loop muted>
       <source
-        src="<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">thank you it lewks so good <br><br>i am such a sucker for rad displays like this<br><br>Superchief has done some amazing things with my art and i am just gobsmacked to see it each time<br><br>my first show they surprised me and put it on a gottdamned times square billboard<br><br>i don&#39;t even have words <a href="https://t.co/ZqEBn20afC">pic.twitter.com/ZqEBn20afC</a></p>&mdash; scizors |they\them |cultLeader (@scizors_eth) <a href="https://twitter.com/scizors_eth/status/1767667373044277466?ref_src=twsrc%5Etfw">March 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>"
+        src="https://youtube.com/shorts/Rk4LECf5Nj4?feature=share"
         type="video/mp4"
       />
       Your browser does not support the video tag.
