@@ -31,7 +31,10 @@ const About = () => {
            Lisbon, Reno, Tokyo, Eindhoven, Bali, & the MetaCannes Film Festival
          </p>
          <p>
-          sending hella special shout outs to Claire Silver, the teams at Superchief Gallery, A2 Accelerate Art, 50mm Collective, imnotArt Gallery, Nox Gallery, Superlative Gallery, and the MetaCannes Film Festival for putting my art in front of a worldwide audience... and even a times square billboard, thanks for that surprise Ed Zipco (!!!)
+          sending hella special shout outs to Claire Silver, the teams at Superchief Gallery, A2 Accelerate Art, 50mm Collective, Forbidden Fruit, imnotArt Gallery, Nox Gallery, Superlative Gallery, and the MetaCannes Film Festival for putting my art in front of a worldwide audience...
+          </p>
+          <p>
+          even a Times Square digital billboard, thanks for that surprise Ed Zipco (!!!)
           </p>
           <p>
           <a href="https://filmsquad.io/let-me-bang-papier-mache/">| MetaCannes Bio: let me bang, papier-mâché |</a>
