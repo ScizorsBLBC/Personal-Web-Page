@@ -1,20 +1,29 @@
 import React from "react";
 import Card from "@mui/material/Card";
 
-{/* <iframe width="1061" height="1886" src="https://www.youtube.com/embed/Rk4LECf5Nj4" title="super fake rare li&#39;l dumpy 2: this ski mask ain&#39;t for covid in  Times Square NYC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
-
-
 const VideoComponent = () => {
   return (
     <video width="30%" height="30%" autoPlay loop muted>
-      <source
-        src="https://www.youtube.com/embed/Rk4LECf5Nj4"
-        type="video/mp4"
-      />
+      <iframe width="1061" height="1886" src="https://www.youtube.com/embed/Rk4LECf5Nj4" title="super fake rare li&#39;l dumpy 2: this ski mask ain&#39;t for covid in  Times Square NYC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       Your browser does not support the video tag.
     </video>
   );
 };
+
+{/* <iframe width="1061" height="1886" src="https://www.youtube.com/embed/Rk4LECf5Nj4" title="super fake rare li&#39;l dumpy 2: this ski mask ain&#39;t for covid in  Times Square NYC" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+
+
+// const VideoComponent = () => {
+//   return (
+//     <video width="30%" height="30%" autoPlay loop muted>
+//       <source
+//         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
+//         type="video/mp4"
+//       />
+//       Your browser does not support the video tag.
+//     </video>
+//   );
+// };
 
 const About = () => {
   return (
