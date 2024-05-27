@@ -1,6 +1,18 @@
 import React from "react";
 import Card from "@mui/material/Card";
 
+const VideoComponent = () => {
+  return (
+    <video width="30%" height="30%" autoPlay loop muted>
+      <source
+        src="https://x.com/i/status/1767667373044277466"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+  );
+};
+
 const About = () => {
   return (
     <div className="About background-profile">
@@ -36,6 +48,7 @@ const About = () => {
           <p>
           even a Times Square digital billboard, thanks for that surprise Ed Zipco (!!!)
           </p>
+          <VideoComponent />
           <p>
           <a href="https://filmsquad.io/let-me-bang-papier-mache/">| MetaCannes Bio: let me bang, papier-mâché |</a>
           </p>
