@@ -3,18 +3,18 @@ import Card from "@mui/material/Card";
 
 const VideoComponent = () => {
   return (
-    <div style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: '100%',
+      paddingTop: '10%', // Add padding to the top of the container
+      paddingBottom: '10%', // Add padding to the bottom of the container
+    }}>
       <iframe
         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
         title="YouTube video player"
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: '100%',
-          height: '100%' 
-        }}
+        style={{ width: '80%', height: '80%' }} // Make the iframe smaller
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
@@ -22,6 +22,28 @@ const VideoComponent = () => {
     </div>
   );
 };
+
+// const VideoComponent = () => {
+//   return (
+//     <div style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
+//       <iframe
+//         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
+//         title="YouTube video player"
+//         style={{
+//           position: 'absolute',
+//           top: '50%',
+//           left: '50%',
+//           transform: 'translate(-50%, -50%)',
+//           width: '100%',
+//           height: '100%' 
+//         }}
+//         frameBorder="0"
+//         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//         allowFullScreen
+//       ></iframe>
+//     </div>
+//   );
+// };
 
 // const VideoComponent = () => {
 //   return (
