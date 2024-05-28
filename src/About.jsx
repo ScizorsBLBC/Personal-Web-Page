@@ -6,6 +6,7 @@ const VideoComponent = () => {
     <div style={{ 
       position: 'relative',
       width: '100%',
+      height: '100%',
       paddingBottom: '28.125%' }}>
       <iframe 
         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
