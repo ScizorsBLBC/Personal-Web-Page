@@ -3,21 +3,18 @@ import Card from "@mui/material/Card";
 
 const VideoComponent = () => {
   return (
-    <div style={{ 
-      position: 'relative',
-      width: '100%',
-      height: '100%',
-      // paddingBottom: '28.125%' 
-    }}>
-      <iframe 
+    <div style={{ position: 'relative', width: '100%', paddingBottom: '56.25%' }}>
+      <iframe
         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
         title="YouTube video player"
         style={{
           position: 'absolute',
-          top: 0, 
-          left: 0, 
-          width: '100%', 
-          height: '100%' }}
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          width: '100%',
+          height: '100%' 
+        }}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
@@ -25,6 +22,31 @@ const VideoComponent = () => {
     </div>
   );
 };
+
+// const VideoComponent = () => {
+//   return (
+//     <div style={{ 
+//       position: 'relative',
+//       width: '100%',
+//       height: '100%',
+//       // paddingBottom: '28.125%' 
+//     }}>
+//       <iframe 
+//         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
+//         title="YouTube video player"
+//         style={{
+//           position: 'absolute',
+//           top: 0, 
+//           left: 0, 
+//           width: '100%', 
+//           height: '100%' }}
+//         frameBorder="0"
+//         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//         allowFullScreen
+//       ></iframe>
+//     </div>
+//   );
+// };
 
 
 
