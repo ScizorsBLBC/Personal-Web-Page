@@ -3,11 +3,20 @@ import Card from "@mui/material/Card";
 
 const VideoComponent = () => {
   return (
-    <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
+    <div style={{ 
+      position: 'relative',
+      width: '100%',
+      height: 0 
+      }}>
       <iframe 
         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
         title="YouTube video player"
-        style={{ position: 'absolute', top: 0, left: 0, width: '50%', height: '50%' }}
+        style={{ 
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          width: '50%',
+          height: '50%' }}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
