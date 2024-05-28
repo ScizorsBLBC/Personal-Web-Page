@@ -6,18 +6,16 @@ const VideoComponent = () => {
     <div style={{ 
       position: 'relative',
       width: '100%',
-      height: 0, paddingBottom: '10%'
-      }}>
+      paddingBottom: '28.125%' }}>
       <iframe 
         src="https://www.youtube.com/embed/Rk4LECf5Nj4"
         title="YouTube video player"
-        style={{ 
+        style={{
           position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: '50%',
-          height: '50%' }}
+          top: 0, 
+          left: 0, 
+          width: '100%', 
+          height: '100%' }}
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
