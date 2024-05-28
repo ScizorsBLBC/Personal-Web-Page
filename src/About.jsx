@@ -8,6 +8,7 @@ const VideoComponent = () => {
       justifyContent: 'center',
       alignItems: 'center',
       width: '100%',
+      height: '100%',
       paddingTop: '10%', // Add padding to the top of the container
       paddingBottom: '10%', // Add padding to the bottom of the container
     }}>
